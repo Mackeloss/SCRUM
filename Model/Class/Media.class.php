@@ -49,7 +49,6 @@ abstract class Media
   public function setDate_parution($nouvelleDate)
     {
         $this->date_parution = $nouvelleDate;
-        //$this->date_parution = date ($nouvelleDate,"dd-mm-YYYY");
     }
 
   public function getCover()
