@@ -3,9 +3,9 @@ Groupe 6
 
 Equipe :
 - VIDAL Olivier
-- Nathan
-- Bastien
-- Jérémy
-- Fabien
+- COUSTENOBLE Nathan
+- KOVAC Bastien
+- LE NEVÉ Jérémy
+- RICARD Fabien
 
 

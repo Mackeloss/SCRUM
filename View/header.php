@@ -26,7 +26,7 @@
 					echo "<p><strong>".htmlspecialchars($_GET['error'])."</strong></p>";
 				}
 			}else{
-				echo 'Vous êtes connecté en tant que '.$_SESSION['adherent']->getPrenom().' '.$_SESSION['adherent']->getNom().'<br/><a href="../Model/deconnexion.php">Se déconnecter</a>';
+				echo 'Vous êtes connecté en tant que '.$_SESSION['adherent']->getPrenom().' '.$_SESSION['adherent']->getNom().'<br/><a href="Model/deconnexion.php">Se déconnecter</a>';
 			}
 			?>
 			</form>
