@@ -6,6 +6,6 @@ Equipe :
 - Nathan
 - Bastien
 - LE NEVÉ Jérémy
-- Fabien
+- RICARD Fabien
 
 
