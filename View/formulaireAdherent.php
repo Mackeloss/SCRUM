@@ -1,10 +1,5 @@
-<?php include('header.php') ?>
-/**
- * Created by PhpStorm.
- * User: Etudiant
- * Date: 21/03/2017
- * Time: 16:12
- */
+<?php include('header.php');
+include('menu.php');?>
 
 <script>
 function verifMail(champ)
