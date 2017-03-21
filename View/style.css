@@ -1,0 +1,191 @@
+#bloc_page{
+  width: 100%;
+}
+
+.row {
+		padding-top : 0;
+	padding-left : 0;
+	padding-right : 0;
+	padding-bottom : 0;
+	margin-top : 0;
+	margin-right : 0;
+	margin-left : 0;
+	margin-bottom : 0;
+}
+
+
+.form-inline{
+margin-bottom : 25px;
+}
+
+[class*="col-"] {
+  --border-radius: 6px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.col-lg-12 {
+	background-color : #424242 ;
+	text-align: right;
+	color : white ;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+#head{
+	margin-top : 0 ;
+	height : 130px;
+}
+
+footer {
+ bottom : 0 ;
+
+
+}
+
+#idmdp{
+	line-height: 40px;
+	margin-right : 20px;
+	margin-top : 20px;
+	margin-bottom : 0;
+}
+
+#cbbutt{
+	line-height: 20px;
+	margin-right : 20px;
+}
+
+.form-group{
+	padding-right : 0;
+
+	margin-right : 0;
+
+
+}
+
+#rechbut{
+		display : flex ;
+}
+
+
+
+.news{
+	background-color : #F8F8F8 ;
+	line-height: 150px;
+}
+
+.inline-form input {
+  display: inline-block;
+  width: 100px;
+}
+
+#titreMonEspace{
+  background-color: WHITE;
+  color: black;
+  text-align: center;
+}
+
+#bluetrait {
+border-color : #58ACFA ;
+border-width : 2px ;
+margin-left : 10px ;
+margin-right : 10px ;
+
+}
+
+
+#whitetrait {
+border-color : #FFFFFF ;
+border-width : 2px ;
+margin-left : 10px ;
+margin-right : 10px ;
+
+}
+
+[class="nav navbar-nav"]{
+text-align : right;
+border-color : black ;
+}
+
+#traitSum{
+	border-color : #58ACFA ;
+	border-width : 2px ;
+
+}
+
+#horaire , #even{
+	line-height: 150px;
+	background-color : #A9D0F5 ;
+	border: 2px solid black;
+	border-radius: 4px;
+}
+
+
+#adr {
+	line-height : 20px;
+
+}
+
+h2{
+	color : #58ACFA;
+
+}
+
+
+h1 {
+text-align : center ;
+}
+
+
+td {
+	background-color : ##CEECF5 ;
+	text-align : center ;
+
+}
+
+th {
+	text-align : center ;
+	background-color : #58ACFA ;
+	color : white ;
+
+}
+
+table {
+	font-family : Verdana ;
+
+}
+
+
+
+#cadreMedia {
+	border-color : #58acfa ;
+	border-width : 2px ;
+	background-color : #d8d8d8 ;
+	
+}
+
+
+#titreMedia {
+	text-align : center ;
+
+
+}
+
+
+
+
+#imageMedia {
+	border : 5px solid white ;
+
+}
+
+#dispo {
+	color : green ;
+}
+
+
+#indispo {
+	color : red ;
+}
