@@ -80,7 +80,8 @@ function get_DVD($idDVD){
   include_once('Model/Class/Media.class.php');
   include_once('Model/Class/DVD.class.php');
   $query=$bdd->prepare('SELECT * FROM dvd WHERE id=:id');
-  $query->bindParam(':id', htmlspecialchars($idDVD), PDO::PARAM_INT);
+  $id = htmlspecialchars($idDVD);
+  $query->bindParam(':id', $id, PDO::PARAM_INT);
   $query->execute();
   $curseur=$query->fetch();
   $dvd = new DVD($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['idCategorie'],$curseur['cover'],$curseur['reserve'],$curseur['genre'],$curseur['duree'],$curseur['idRealisateur']);
@@ -158,7 +159,8 @@ function get_realisateur($dvd){
 	include_once('Model/Class/Media.class.php');
   include_once('Model/Class/DVD.class.php');
   $query=$bdd->prepare('SELECT * FROM artiste WHERE id=:id');
-  $query->bindParam(':id', $dvd->getIdRealisateur(), PDO::PARAM_INT);
+  $id= $dvd->getIdRealisateur();
+  $query->bindParam(':id', $id, PDO::PARAM_INT);
   $query->execute();
   $curseur=$query->fetch();
   $realisateur = $curseur['prenom']." ".$curseur['nom'];
