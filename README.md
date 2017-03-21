@@ -5,7 +5,7 @@ Equipe :
 - VIDAL Olivier
 - Nathan
 - Bastien
-- Jérémy
+- LE NEVÉ Jérémy
 - Fabien
 
 
