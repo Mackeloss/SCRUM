@@ -6,6 +6,6 @@ Equipe :
 - COUSTENOBLE Nathan
 - Bastien
 - Jérémy
-- Fabien
+- RICARD Fabien
 
 
