@@ -17,6 +17,9 @@
 							<?php if(isset($_SESSION['adherent'])){?>
 								<li><a href="site.php?section=monespace&id=<?php echo $_SESSION['adherent']->getId();?>">Mon espace</a></li>
 							<?php }	?>
+                            <?php if(isset($_SESSION['adherent']) && $_SESSION['adherent']->getNom() === "admin"){?>
+                                <li><a href="site.php?section=index">Ajouter Adhérent</a></li>
+                            <?php } ?>
 							<li> <a href="site.php?section=contact">Contact</a> </li>
 						  </ul>
 						</div>
