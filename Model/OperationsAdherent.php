@@ -173,6 +173,14 @@ function isRenouvelable($idEmprunt){
 
 function ajouter_adherent($adherent) {
  include('Model/ConnexionBD.php');
-}
+ $query=$bdd->prepare('INSERT INTO adherent(nom, prenom, mail, tel, dateNaissance, dateInscription) VALUES(:nom, :prenom, :mail, :tel, :dateNaissance, :dateInscription)');
+ $query->bindParam(':nom', $adherent->getNom());
+ $query->bindParam(':prenom', $adherent->getPrenom());
+ $query->bindParam(':mail', $adherent->getMail());
+ $query->bindParam(':tel', $adherent->getTel());
+ $query->bindParam(':dateNaissance', $adherent->getDateNaissance());
+ $query->bindParam(':dateInscription', $adherent->getDateInscription());
 
+ return $query->execute();
+}
 ?>

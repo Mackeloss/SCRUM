@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb5fee40-fbb2-400b-b148-c25bc03a2f49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/formulaireAdherent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/formConnexion.php" afterPath="$PROJECT_DIR$/Model/formConnexion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/menu.php" afterPath="$PROJECT_DIR$/View/menu.php" />
-    </list>
-    <list id="95f1236c-1e46-44ec-867f-560412092970" name="Failed commit: Default" comment="up index.php&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/adherentAjoute.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/inscrireAdherent.php" afterPath="$PROJECT_DIR$/Controller/inscrireAdherent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/OperationsAdherent.php" afterPath="$PROJECT_DIR$/Model/OperationsAdherent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/formulaireAdherent.php" afterPath="$PROJECT_DIR$/View/formulaireAdherent.php" />
     </list>
+    <list id="95f1236c-1e46-44ec-867f-560412092970" name="Failed commit: Default" comment="up index.php&#10;" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,117 +22,59 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="afficherFormContact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/afficherFormContact.php">
+      <file leaf-file-name="formulaireAdherent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/formulaireAdherent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="-592">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="170">
-                <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnexionBD.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/ConnexionBD.php">
+      <file leaf-file-name="OperationsAdherent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/OperationsAdherent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="creabase.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/creabase.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4539">
-              <caret line="267" column="17" lean-forward="false" selection-start-line="267" selection-start-column="13" selection-end-line="267" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperationsMedia.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Model/OperationsMedia.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="63" column="57" lean-forward="true" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+            <state relative-caret-position="564">
+              <caret line="183" column="26" lean-forward="false" selection-start-line="183" selection-start-column="26" selection-end-line="183" selection-end-column="26" />
               <folding>
-                <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1490108519964" expanded="true" signature="326:345" ph="SELECT * FRO... livre" />
-                <marker date="1490108519964" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
-                <marker date="1490108519964" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
-                <marker date="1490108519964" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
-                <marker date="1490108519964" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
-                <marker date="1490108519964" expanded="true" signature="3741:3773" ph="SELECT * FRO... livre" />
-                <marker date="1490108519964" expanded="true" signature="4431:4463" ph="SELECT * FRO... livre" />
-                <marker date="1490108519964" expanded="true" signature="4897:4927" ph="SELECT * FRO... dvd" />
-                <marker date="1490108519964" expanded="true" signature="5362:5391" ph="SELECT * FRO... cd" />
-                <marker date="1490108519964" expanded="true" signature="6199:6233" ph="SELECT * FRO... artiste" />
-                <marker date="1490108519964" expanded="true" signature="6692:6726" ph="SELECT * FRO... artiste" />
-                <marker date="1490108519964" expanded="true" signature="7195:7229" ph="SELECT * FRO... artiste" />
-                <marker date="1490108519964" expanded="true" signature="7697:7731" ph="SELECT * FRO... artiste" />
-                <marker date="1490108519964" expanded="true" signature="8354:8420" ph="SELECT * FRO... emprunter" />
-                <marker date="1490108519964" expanded="true" signature="8680:8759" ph="INSERT INTO reserver... " />
-                <marker date="1490108519964" expanded="true" signature="9058:9144" ph="INSERT INTO reserver... " />
-                <marker date="1490108519964" expanded="true" signature="9801:9870" ph="SELECT * FRO... artiste" />
-                <marker date="1490108519964" expanded="true" signature="10003:10064" ph="SELECT * FRO... livre" />
-                <marker date="1490108519964" expanded="true" signature="10497:10559" ph="SELECT * FRO... cd" />
-                <marker date="1490108519964" expanded="true" signature="11035:11099" ph="SELECT * FRO... dvd" />
+                <marker date="1490369594417" expanded="true" signature="342:636" ph="SELECT livre... emprunter" />
+                <marker date="1490369594417" expanded="true" signature="1342:1663" ph="SELECT cd.id... emprunter" />
+                <marker date="1490369594417" expanded="true" signature="2413:2706" ph="SELECT dvd.i... emprunter" />
+                <marker date="1490369594417" expanded="true" signature="3975:4262" ph="SELECT livre... reserver" />
+                <marker date="1490369594417" expanded="true" signature="4973:5287" ph="SELECT cd.id... reserver" />
+                <marker date="1490369594417" expanded="true" signature="6042:6328" ph="SELECT dvd.i... reserver" />
+                <marker date="1490369594417" expanded="true" signature="7575:7634" ph="SELECT * FRO... reserver" />
+                <marker date="1490369594417" expanded="true" signature="7843:7900" ph="DELETE FROM " />
+                <marker date="1490369594417" expanded="true" signature="8022:8079" ph="DELETE FROM " />
+                <marker date="1490369594417" expanded="true" signature="8371:8421" ph="SELECT * FRO... emprunter" />
+                <marker date="1490369594417" expanded="true" signature="8589:8685" ph="UPDATE empru... " />
+                <marker date="1490369594417" expanded="true" signature="8795:8854" ph="UPDATE empru... " />
+                <marker date="1490369594417" expanded="true" signature="9118:9168" ph="SELECT * FRO... emprunter" />
+                <marker date="1490369594417" expanded="true" signature="9413:9434" ph="INSERT INTO adherent... " />
+                <marker date="1490369594417" expanded="true" signature="9413:9558" ph="INSERT INTO adherent... " />
+                <marker date="1490369594417" expanded="true" signature="9413:9937" ph="INSERT INTO adherent... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Adherent.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/Class/Adherent.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-833">
+              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inscrireAdherent.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controller/inscrireAdherent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,6 +96,10 @@
         <option value="$PROJECT_DIR$/Model/ConnexionBD.php" />
         <option value="$PROJECT_DIR$/Model/OperationsMedia.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/View/adherentAjoute.php" />
+        <option value="$PROJECT_DIR$/Controller/inscrireAdherent.php" />
+        <option value="$PROJECT_DIR$/Model/OperationsAdherent.php" />
+        <option value="$PROJECT_DIR$/View/formulaireAdherent.php" />
       </list>
     </option>
   </component>
@@ -196,6 +140,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SCRUM" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCRUM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCRUM" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCRUM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCRUM" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCRUM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCRUM" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Class" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCRUM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCRUM" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,6 +298,7 @@
       <workItem from="1490104757846" duration="1376000" />
       <workItem from="1490108547342" duration="2425000" />
       <workItem from="1490111401254" duration="13000" />
+      <workItem from="1490368461865" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="up README.md">
       <created>1490108856629</created>
@@ -313,18 +318,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3814000" />
+    <option name="totallyTimeSpent" value="4977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20295984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -358,6 +363,103 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Controller/afficherFormContact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/ConnexionBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/creabase.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4539">
+          <caret line="267" column="17" lean-forward="false" selection-start-line="267" selection-start-column="13" selection-end-line="267" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/OperationsMedia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <marker date="1490368398343" expanded="true" signature="326:345" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
+            <marker date="1490368398343" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
+            <marker date="1490368398343" expanded="true" signature="3754:3786" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="4444:4476" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="4910:4940" ph="SELECT * FRO... dvd" />
+            <marker date="1490368398343" expanded="true" signature="5375:5404" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="6212:6246" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="6705:6739" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="7220:7254" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="7722:7756" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="8379:8445" ph="SELECT * FRO... emprunter" />
+            <marker date="1490368398343" expanded="true" signature="8705:8784" ph="INSERT INTO reserver... " />
+            <marker date="1490368398343" expanded="true" signature="9083:9169" ph="INSERT INTO reserver... " />
+            <marker date="1490368398343" expanded="true" signature="9826:9895" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="10028:10089" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="10522:10584" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="11060:11124" ph="SELECT * FRO... dvd" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controller/afficherFormContact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -431,26 +533,26 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1490108519964" expanded="true" signature="326:345" ph="SELECT * FRO... livre" />
-            <marker date="1490108519964" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
-            <marker date="1490108519964" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
-            <marker date="1490108519964" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
-            <marker date="1490108519964" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
-            <marker date="1490108519964" expanded="true" signature="3741:3773" ph="SELECT * FRO... livre" />
-            <marker date="1490108519964" expanded="true" signature="4431:4463" ph="SELECT * FRO... livre" />
-            <marker date="1490108519964" expanded="true" signature="4897:4927" ph="SELECT * FRO... dvd" />
-            <marker date="1490108519964" expanded="true" signature="5362:5391" ph="SELECT * FRO... cd" />
-            <marker date="1490108519964" expanded="true" signature="6199:6233" ph="SELECT * FRO... artiste" />
-            <marker date="1490108519964" expanded="true" signature="6692:6726" ph="SELECT * FRO... artiste" />
-            <marker date="1490108519964" expanded="true" signature="7195:7229" ph="SELECT * FRO... artiste" />
-            <marker date="1490108519964" expanded="true" signature="7697:7731" ph="SELECT * FRO... artiste" />
-            <marker date="1490108519964" expanded="true" signature="8354:8420" ph="SELECT * FRO... emprunter" />
-            <marker date="1490108519964" expanded="true" signature="8680:8759" ph="INSERT INTO reserver... " />
-            <marker date="1490108519964" expanded="true" signature="9058:9144" ph="INSERT INTO reserver... " />
-            <marker date="1490108519964" expanded="true" signature="9801:9870" ph="SELECT * FRO... artiste" />
-            <marker date="1490108519964" expanded="true" signature="10003:10064" ph="SELECT * FRO... livre" />
-            <marker date="1490108519964" expanded="true" signature="10497:10559" ph="SELECT * FRO... cd" />
-            <marker date="1490108519964" expanded="true" signature="11035:11099" ph="SELECT * FRO... dvd" />
+            <marker date="1490368398343" expanded="true" signature="326:345" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
+            <marker date="1490368398343" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
+            <marker date="1490368398343" expanded="true" signature="3754:3786" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="4444:4476" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="4910:4940" ph="SELECT * FRO... dvd" />
+            <marker date="1490368398343" expanded="true" signature="5375:5404" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="6212:6246" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="6705:6739" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="7220:7254" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="7722:7756" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="8379:8445" ph="SELECT * FRO... emprunter" />
+            <marker date="1490368398343" expanded="true" signature="8705:8784" ph="INSERT INTO reserver... " />
+            <marker date="1490368398343" expanded="true" signature="9083:9169" ph="INSERT INTO reserver... " />
+            <marker date="1490368398343" expanded="true" signature="9826:9895" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="10028:10089" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="10522:10584" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="11060:11124" ph="SELECT * FRO... dvd" />
           </folding>
         </state>
       </provider>
@@ -463,14 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/afficherFormContact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -479,10 +573,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/View/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/creabase.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="267" column="17" lean-forward="false" selection-start-line="267" selection-start-column="13" selection-end-line="267" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -498,65 +616,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/creabase.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4539">
-          <caret line="267" column="17" lean-forward="false" selection-start-line="267" selection-start-column="13" selection-end-line="267" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/ConnexionBD.php">
+    <entry file="file://$PROJECT_DIR$/Controller/afficherFormContact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/Controller/envoyerMessage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/OperationsMedia.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="63" column="57" lean-forward="true" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+        <state relative-caret-position="-442">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1490108519964" expanded="true" signature="326:345" ph="SELECT * FRO... livre" />
-            <marker date="1490108519964" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
-            <marker date="1490108519964" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
-            <marker date="1490108519964" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
-            <marker date="1490108519964" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
-            <marker date="1490108519964" expanded="true" signature="3741:3773" ph="SELECT * FRO... livre" />
-            <marker date="1490108519964" expanded="true" signature="4431:4463" ph="SELECT * FRO... livre" />
-            <marker date="1490108519964" expanded="true" signature="4897:4927" ph="SELECT * FRO... dvd" />
-            <marker date="1490108519964" expanded="true" signature="5362:5391" ph="SELECT * FRO... cd" />
-            <marker date="1490108519964" expanded="true" signature="6199:6233" ph="SELECT * FRO... artiste" />
-            <marker date="1490108519964" expanded="true" signature="6692:6726" ph="SELECT * FRO... artiste" />
-            <marker date="1490108519964" expanded="true" signature="7195:7229" ph="SELECT * FRO... artiste" />
-            <marker date="1490108519964" expanded="true" signature="7697:7731" ph="SELECT * FRO... artiste" />
-            <marker date="1490108519964" expanded="true" signature="8354:8420" ph="SELECT * FRO... emprunter" />
-            <marker date="1490108519964" expanded="true" signature="8680:8759" ph="INSERT INTO reserver... " />
-            <marker date="1490108519964" expanded="true" signature="9058:9144" ph="INSERT INTO reserver... " />
-            <marker date="1490108519964" expanded="true" signature="9801:9870" ph="SELECT * FRO... artiste" />
-            <marker date="1490108519964" expanded="true" signature="10003:10064" ph="SELECT * FRO... livre" />
-            <marker date="1490108519964" expanded="true" signature="10497:10559" ph="SELECT * FRO... cd" />
-            <marker date="1490108519964" expanded="true" signature="11035:11099" ph="SELECT * FRO... dvd" />
+            <marker date="1490368398343" expanded="true" signature="326:345" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
+            <marker date="1490368398343" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
+            <marker date="1490368398343" expanded="true" signature="3754:3786" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="4444:4476" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="4910:4940" ph="SELECT * FRO... dvd" />
+            <marker date="1490368398343" expanded="true" signature="5375:5404" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="6212:6246" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="6705:6739" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="7220:7254" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="7722:7756" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="8379:8445" ph="SELECT * FRO... emprunter" />
+            <marker date="1490368398343" expanded="true" signature="8705:8784" ph="INSERT INTO reserver... " />
+            <marker date="1490368398343" expanded="true" signature="9083:9169" ph="INSERT INTO reserver... " />
+            <marker date="1490368398343" expanded="true" signature="9826:9895" ph="SELECT * FRO... artiste" />
+            <marker date="1490368398343" expanded="true" signature="10028:10089" ph="SELECT * FRO... livre" />
+            <marker date="1490368398343" expanded="true" signature="10522:10584" ph="SELECT * FRO... cd" />
+            <marker date="1490368398343" expanded="true" signature="11060:11124" ph="SELECT * FRO... dvd" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/messageEnvoye.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/adherentAjoute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="84" lean-forward="false" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/mediaReserve.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/pageErreur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/reserverArticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/ConnexionBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/OperationsAdherent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="183" column="26" lean-forward="false" selection-start-line="183" selection-start-column="26" selection-end-line="183" selection-end-column="26" />
+          <folding>
+            <marker date="1490369594417" expanded="true" signature="342:636" ph="SELECT livre... emprunter" />
+            <marker date="1490369594417" expanded="true" signature="1342:1663" ph="SELECT cd.id... emprunter" />
+            <marker date="1490369594417" expanded="true" signature="2413:2706" ph="SELECT dvd.i... emprunter" />
+            <marker date="1490369594417" expanded="true" signature="3975:4262" ph="SELECT livre... reserver" />
+            <marker date="1490369594417" expanded="true" signature="4973:5287" ph="SELECT cd.id... reserver" />
+            <marker date="1490369594417" expanded="true" signature="6042:6328" ph="SELECT dvd.i... reserver" />
+            <marker date="1490369594417" expanded="true" signature="7575:7634" ph="SELECT * FRO... reserver" />
+            <marker date="1490369594417" expanded="true" signature="7843:7900" ph="DELETE FROM " />
+            <marker date="1490369594417" expanded="true" signature="8022:8079" ph="DELETE FROM " />
+            <marker date="1490369594417" expanded="true" signature="8371:8421" ph="SELECT * FRO... emprunter" />
+            <marker date="1490369594417" expanded="true" signature="8589:8685" ph="UPDATE empru... " />
+            <marker date="1490369594417" expanded="true" signature="8795:8854" ph="UPDATE empru... " />
+            <marker date="1490369594417" expanded="true" signature="9118:9168" ph="SELECT * FRO... emprunter" />
+            <marker date="1490369594417" expanded="true" signature="9413:9434" ph="INSERT INTO adherent... " />
+            <marker date="1490369594417" expanded="true" signature="9413:9558" ph="INSERT INTO adherent... " />
+            <marker date="1490369594417" expanded="true" signature="9413:9937" ph="INSERT INTO adherent... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Class/Adherent.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-833">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/formulaireAdherent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-592">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/inscrireAdherent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

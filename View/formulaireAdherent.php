@@ -17,20 +17,6 @@ function verifMail(champ)
   }
 }
 
-function verifCaptcha(champ)
-{
-    if(champ.value != 5)
-    {
-        surligne(champ, true);
-        return false;
-    }
-    else
-    {
-        surligne(champ, false);
-        return true;
-    }
-}
-
 function surligne(champ, erreur)
 {
     if(erreur)
@@ -64,6 +50,8 @@ function surligne(champ, erreur)
             <div class="col-sm-6">
                 <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prénom">
             </div>
+        </div>
+        <div class="form-groupe">
             <label for="nom" class="col-sm-2 control-label col-sm-offset-1">Nom</label>
             <div class="col-sm-6">
                 <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom">
@@ -73,6 +61,12 @@ function surligne(champ, erreur)
             <label for="adresse" class="col-sm-2 control-label col-sm-offset-1">Adresse</label>
             <div class="col-sm-6">
                 <input type="text" class="form-control" id="adresse" name="adresse">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="num" class="col-sm-2 control-label col-sm-offset-1">Numéro de Téléphone</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="num" name="num">
             </div>
         </div>
         <div class="form-group">
