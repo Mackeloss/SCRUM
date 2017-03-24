@@ -42,9 +42,9 @@ function surligne(champ, erreur)
 
     <form class="form-horizontal" role="form" method="post" action="site.php?section=adherent&action=inscription">
         <div class="form-group">
-            <label for="nom" class="col-sm-2 control-label col-sm-offset-1">Nom</label>
+            <label for="username" class="col-sm-2 control-label col-sm-offset-1">Nom d'utilisateur</label>
             <div class="col-sm-6">
-                <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom et prénom">
+                <input type="text" class="form-control" id="username" name="username" placeholder="Nom d'Utilisateur">
             </div>
         </div>
         <div class="form-group">
@@ -54,15 +54,31 @@ function surligne(champ, erreur)
             </div>
         </div>
         <div class="form-group">
-            <label for="message" class="col-sm-2 control-label col-sm-offset-1">Message</label>
+            <label for="mdp" class="col-sm-2 control-label col-sm-offset-1">Mot de Passe</label>
             <div class="col-sm-6">
-                <textarea class="form-control" rows="4" name="message"></textarea>
+                <input type="password" class="form-control" id="mdp" name="mdp">
             </div>
         </div>
         <div class="form-group">
-            <label for="human" class="col-sm-2 control-label col-sm-offset-1">2 + 3 = ?</label>
+            <label for="prenom" class="col-sm-2 control-label col-sm-offset-1">Prénom</label>
             <div class="col-sm-6">
-                <input type="text" class="form-control" onBlur="verifCaptcha(this)" id="human" name="human" placeholder="Votre réponse">
+                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prénom">
+            </div>
+            <label for="nom" class="col-sm-2 control-label col-sm-offset-1">Nom</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="adresse" class="col-sm-2 control-label col-sm-offset-1">Adresse</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="adresse" name="adresse">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="dateNaissance" class="col-sm-2 control-label col-sm-offset-1">Date de Naissance</label>
+            <div class="col-sm-6">
+                <input type="date" class="form-control" id="dateNaissance" name="dateNaissance">
             </div>
         </div>
         <div class="form-group">

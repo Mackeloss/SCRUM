@@ -171,4 +171,8 @@ function isRenouvelable($idEmprunt){
  return $curseur['renouvele'];
 }
 
+function ajouter_adherent($adherent) {
+ include('Model/ConnexionBD.php');
+}
+
 ?>
