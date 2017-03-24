@@ -95,7 +95,8 @@ function get_livre($idLivre){
   include_once('Model/Class/Media.class.php');
   include_once('Model/Class/Livre.class.php');
   $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%d/%m/%Y\') AS date_parution,idCategorie,cover,reserve,idAuteur,resume,type FROM livre WHERE id=:id');
-  $query->bindParam(':id', htmlspecialchars($idLivre), PDO::PARAM_INT);
+  $idLivre = htmlspecialchars($idLivre);
+  $query->bindParam(':id', $idLivre, PDO::PARAM_INT);
   $query->execute();
   $curseur=$query->fetch();
   $livre = new Livre($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['idCategorie'],$curseur['cover'],$curseur['reserve'],$curseur['idAuteur'],$curseur['resume'],$curseur['type']);
