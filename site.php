@@ -64,7 +64,9 @@ if(isset($_GET['section'])){
     break;
 
     case 'ajoutAdherent':
-        require_once('Controller/inscrireAdherent.php');
+        if (isset($_GET['ajouter'])) {
+            require_once('Controller/inscrireAdherent.php');
+        }
     break;
 
     //Consultation du catalogue
