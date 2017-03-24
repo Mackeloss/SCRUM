@@ -64,7 +64,7 @@ if(isset($_GET['section'])){
     break;
 
     case 'ajoutAdherent':
-        if (isset($_GET['ajouter'])) {
+        if (isset($_POST['ajouter'])) {
             require_once('Controller/inscrireAdherent.php');
         }
     break;

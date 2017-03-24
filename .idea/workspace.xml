@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb5fee40-fbb2-400b-b148-c25bc03a2f49" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site.php" afterPath="$PROJECT_DIR$/site.php" />
     </list>
     <list id="95f1236c-1e46-44ec-867f-560412092970" name="Failed commit: Default" comment="up index.php&#10;" />
@@ -59,8 +58,18 @@
       <file leaf-file-name="Adherent.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/Class/Adherent.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-833">
+            <state relative-caret-position="-578">
               <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,8 +88,8 @@
       <file leaf-file-name="site.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+            <state relative-caret-position="85">
+              <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -306,7 +315,7 @@
       <workItem from="1490104757846" duration="1376000" />
       <workItem from="1490108547342" duration="2425000" />
       <workItem from="1490111401254" duration="13000" />
-      <workItem from="1490368461865" duration="1588000" />
+      <workItem from="1490368461865" duration="1728000" />
     </task>
     <task id="LOCAL-00001" summary="up README.md">
       <created>1490108856629</created>
@@ -326,7 +335,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5402000" />
+    <option name="totallyTimeSpent" value="5542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -444,26 +453,26 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1490369682710" expanded="true" signature="326:333" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
-            <marker date="1490369682710" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
-            <marker date="1490369682710" expanded="true" signature="3754:3786" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="4444:4476" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="4910:4940" ph="SELECT * FRO... dvd" />
-            <marker date="1490369682710" expanded="true" signature="6493:6514" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="7322:7356" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="7815:7849" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="8330:8364" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="8832:8866" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="9489:9555" ph="SELECT * FRO... emprunter" />
-            <marker date="1490369682710" expanded="true" signature="9815:9894" ph="INSERT INTO reserver... " />
-            <marker date="1490369682710" expanded="true" signature="10193:10279" ph="INSERT INTO reserver... " />
-            <marker date="1490369682710" expanded="true" signature="10936:11005" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="11138:11199" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="11632:11694" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="12170:12234" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="326:333" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="3754:3786" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="4444:4476" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="4910:4940" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="6493:6514" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="7322:7356" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="7815:7849" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="8330:8364" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="8832:8866" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="9598:9664" ph="SELECT * FRO... emprunter" />
+            <marker date="1490370085607" expanded="true" signature="9924:10003" ph="INSERT INTO reserver... " />
+            <marker date="1490370085607" expanded="true" signature="10302:10388" ph="INSERT INTO reserver... " />
+            <marker date="1490370085607" expanded="true" signature="11045:11114" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="11247:11308" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="11741:11803" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="12279:12343" ph="SELECT * FRO... dvd" />
           </folding>
         </state>
       </provider>
@@ -541,26 +550,26 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1490369682710" expanded="true" signature="326:333" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
-            <marker date="1490369682710" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
-            <marker date="1490369682710" expanded="true" signature="3754:3786" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="4444:4476" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="4910:4940" ph="SELECT * FRO... dvd" />
-            <marker date="1490369682710" expanded="true" signature="6493:6514" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="7322:7356" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="7815:7849" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="8330:8364" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="8832:8866" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="9489:9555" ph="SELECT * FRO... emprunter" />
-            <marker date="1490369682710" expanded="true" signature="9815:9894" ph="INSERT INTO reserver... " />
-            <marker date="1490369682710" expanded="true" signature="10193:10279" ph="INSERT INTO reserver... " />
-            <marker date="1490369682710" expanded="true" signature="10936:11005" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="11138:11199" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="11632:11694" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="12170:12234" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="326:333" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="3754:3786" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="4444:4476" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="4910:4940" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="6493:6514" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="7322:7356" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="7815:7849" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="8330:8364" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="8832:8866" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="9598:9664" ph="SELECT * FRO... emprunter" />
+            <marker date="1490370085607" expanded="true" signature="9924:10003" ph="INSERT INTO reserver... " />
+            <marker date="1490370085607" expanded="true" signature="10302:10388" ph="INSERT INTO reserver... " />
+            <marker date="1490370085607" expanded="true" signature="11045:11114" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="11247:11308" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="11741:11803" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="12279:12343" ph="SELECT * FRO... dvd" />
           </folding>
         </state>
       </provider>
@@ -638,26 +647,26 @@
           <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1490369682710" expanded="true" signature="326:333" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
-            <marker date="1490369682710" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
-            <marker date="1490369682710" expanded="true" signature="3754:3786" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="4444:4476" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="4910:4940" ph="SELECT * FRO... dvd" />
-            <marker date="1490369682710" expanded="true" signature="6493:6514" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="7322:7356" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="7815:7849" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="8330:8364" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="8832:8866" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="9489:9555" ph="SELECT * FRO... emprunter" />
-            <marker date="1490369682710" expanded="true" signature="9815:9894" ph="INSERT INTO reserver... " />
-            <marker date="1490369682710" expanded="true" signature="10193:10279" ph="INSERT INTO reserver... " />
-            <marker date="1490369682710" expanded="true" signature="10936:11005" ph="SELECT * FRO... artiste" />
-            <marker date="1490369682710" expanded="true" signature="11138:11199" ph="SELECT * FRO... livre" />
-            <marker date="1490369682710" expanded="true" signature="11632:11694" ph="SELECT * FRO... cd" />
-            <marker date="1490369682710" expanded="true" signature="12170:12234" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="326:333" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="876:892" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="1467:1484" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="2469:2498" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="3123:3153" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="3754:3786" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="4444:4476" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="4910:4940" ph="SELECT * FRO... dvd" />
+            <marker date="1490370085607" expanded="true" signature="6493:6514" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="7322:7356" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="7815:7849" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="8330:8364" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="8832:8866" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="9598:9664" ph="SELECT * FRO... emprunter" />
+            <marker date="1490370085607" expanded="true" signature="9924:10003" ph="INSERT INTO reserver... " />
+            <marker date="1490370085607" expanded="true" signature="10302:10388" ph="INSERT INTO reserver... " />
+            <marker date="1490370085607" expanded="true" signature="11045:11114" ph="SELECT * FRO... artiste" />
+            <marker date="1490370085607" expanded="true" signature="11247:11308" ph="SELECT * FRO... livre" />
+            <marker date="1490370085607" expanded="true" signature="11741:11803" ph="SELECT * FRO... cd" />
+            <marker date="1490370085607" expanded="true" signature="12279:12343" ph="SELECT * FRO... dvd" />
           </folding>
         </state>
       </provider>
@@ -710,26 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/formulaireAdherent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Class/Adherent.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -759,6 +752,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Class/Adherent.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/afficherCatalogue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controller/inscrireAdherent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -769,8 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
           <folding />
         </state>
       </provider>
