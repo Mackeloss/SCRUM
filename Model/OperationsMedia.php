@@ -145,7 +145,8 @@ function get_auteur($livre){
   include_once('Model/Class/Livre.class.php');
   include_once('Model/Class/CD.class.php');
   $query=$bdd->prepare('SELECT * FROM artiste WHERE id=:id');
-  $query->bindParam(':id', $livre->getIdAuteur(), PDO::PARAM_INT);
+  $idAuteur = $livre->getIdAuteur();
+  $query->bindParam(':id', $idAuteur, PDO::PARAM_INT);
   $query->execute();
   $curseur=$query->fetch();
   $auteur = $curseur['prenom']." ".$curseur['nom'];
@@ -175,7 +176,8 @@ function get_compositeur($cd){
 	include_once('Model/Class/Media.class.php');
   include_once('Model/Class/CD.class.php');
   $query=$bdd->prepare('SELECT * FROM artiste WHERE id=:id');
-  $query->bindParam(':id', $cd->getIdCompositeur(), PDO::PARAM_INT);
+  $idCompositeur = $cd->getIdCompositeur();
+  $query->bindParam(':id', $idCompositeur, PDO::PARAM_INT);
   $query->execute();
   $curseur=$query->fetch();
   $compositeur = $curseur['prenom']." ".$curseur['nom'];
@@ -189,7 +191,8 @@ function get_interprete($cd){
 	include_once('Model/Class/Media.class.php');
   include_once('Model/Class/CD.class.php');
   $query=$bdd->prepare('SELECT * FROM artiste WHERE id=:id');
-  $query->bindParam(':id', $cd->getIdInterprete(), PDO::PARAM_INT);
+  $idInterprete = $cd->getIdInterprete();
+  $query->bindParam(':id',$idInterprete, PDO::PARAM_INT);
   $query->execute();
   $curseur=$query->fetch();
   $interprete = $curseur['prenom']." ".$curseur['nom'];
