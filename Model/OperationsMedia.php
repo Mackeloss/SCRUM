@@ -10,7 +10,7 @@ function get_allLivre(){
  include('Model/ConnexionBD.php');
  include_once('Model/Class/Media.class.php');
  include_once('Model/Class/Livre.class.php');
- $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%j/%m/%Y\'),categorie,cover,reserve,idAuteur,resume,type FROM livre;');
+ $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%j/%m/%Y\') AS date_parution,categorie,cover,reserve,idAuteur,resume,type FROM livre;');
  $query->execute();
  $tabLivre=array();
  while($curseur=$query->fetch()){
