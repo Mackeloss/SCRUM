@@ -24,7 +24,7 @@ function get_allCD(){
  include('Model/ConnexionBD.php');
  include_once('Model/Class/Media.class.php');
  include_once('Model/Class/CD.class.php');
- $query=$bdd->prepare('SELECT * FROM cd;');
+ $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%j/%m/%Y\') AS date_parution,categorie,cover,reserve,nbPistes,idAuteur,idCompositeur,idInterprete,genre FROM cd;');
  $query->execute();
  $tabCD=array();
  while($curseur=$query->fetch()){
@@ -38,7 +38,7 @@ function get_allDVD(){
  include('Model/ConnexionBD.php');
  include_once('Model/Class/Media.class.php');
  include_once('Model/Class/DVD.class.php');
- $query=$bdd->prepare('SELECT * FROM dvd;');
+ $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%j/%m/%Y\') AS date_parution,idCategorie,cover,reserve,genre,duree,idRealisateur FROM dvd;');
  $query->execute();
  $tabDVD=array();
  while($curseur=$query->fetch()){
@@ -66,7 +66,7 @@ function get_CD($idCD){
   include('Model/ConnexionBD.php');
   include_once('Model/Class/Media.class.php');
   include_once('Model/Class/CD.class.php');
-  $query=$bdd->prepare('SELECT * FROM cd WHERE id=:id');
+  $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%j/%m/%Y\') AS date_parution,idCategorie,cover,reserve,nbPistes,idAuteur,idCompositeur,idInterprete,genre FROM cd WHERE id=:id');
   $query->bindParam(':id', htmlspecialchars($idCD), PDO::PARAM_INT);
   $query->execute();
   $curseur=$query->fetch();
@@ -79,7 +79,7 @@ function get_DVD($idDVD){
   include('Model/ConnexionBD.php');
   include_once('Model/Class/Media.class.php');
   include_once('Model/Class/DVD.class.php');
-  $query=$bdd->prepare('SELECT * FROM dvd WHERE id=:id');
+  $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%j/%m/%Y\') AS date_parution,idCategorie,cover,reserve,genre,duree,idRealisateur FROM dvd WHERE id=:id');
   $id = htmlspecialchars($idDVD);
   $query->bindParam(':id', $id, PDO::PARAM_INT);
   $query->execute();
@@ -93,7 +93,7 @@ function get_livre($idLivre){
   include('Model/ConnexionBD.php');
   include_once('Model/Class/Media.class.php');
   include_once('Model/Class/Livre.class.php');
-  $query=$bdd->prepare('SELECT * FROM livre WHERE id=:id');
+  $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%j/%m/%Y\') AS date_parution,idCategorie,cover,reserve,idAuteur,resume,type FROM livre WHERE id=:id');
   $query->bindParam(':id', htmlspecialchars($idLivre), PDO::PARAM_INT);
   $query->execute();
   $curseur=$query->fetch();
@@ -108,7 +108,7 @@ function get_media($idMedia, $typeMedia){
   switch($typeMedia){
     case 'Livre':
     include_once('Model/Class/Livre.class.php');
-    $query=$bdd->prepare('SELECT * FROM livre WHERE id=:id');
+    $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%j/%m/%Y\') AS date_parution,idCategorie,cover,reserve,idAuteur,resume,type FROM livre WHERE id=:id');
     $query->bindParam(':id', htmlspecialchars($idMedia), PDO::PARAM_INT);
     $query->execute();
     $curseur=$query->fetch();
@@ -116,7 +116,7 @@ function get_media($idMedia, $typeMedia){
     break;
     case 'DVD':
     include_once('Model/Class/DVD.class.php');
-    $query=$bdd->prepare('SELECT * FROM dvd WHERE id=:id');
+    $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%j/%m/%Y\') AS date_parution,idCategorie,cover,reserve,genre,duree,IdRealisateur FROM dvd WHERE id=:id');
     $query->bindParam(':id', htmlspecialchars($idMedia), PDO::PARAM_INT);
     $query->execute();
     $curseur=$query->fetch();
@@ -124,7 +124,7 @@ function get_media($idMedia, $typeMedia){
     break;
     case 'CD':
     include_once('Model/Class/CD.class.php');
-    $query=$bdd->prepare('SELECT * FROM cd WHERE id=:id');
+    $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%j/%m/%Y\') AS date_parution,idCategorie,cover,reserve,nbPistes,idAuteur,idCompositeur, idInterprete,genre FROM cd WHERE id=:id');
     $query->bindParam(':id', htmlspecialchars($idMedia), PDO::PARAM_INT);
     $query->execute();
     $curseur=$query->fetch();
