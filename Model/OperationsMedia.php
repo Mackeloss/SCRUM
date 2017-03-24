@@ -67,7 +67,8 @@ function get_CD($idCD){
   include_once('Model/Class/Media.class.php');
   include_once('Model/Class/CD.class.php');
   $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%d/%m/%Y\') AS date_parution,idCategorie,cover,reserve,nbPistes,idAuteur,idCompositeur,idInterprete,genre FROM cd WHERE id=:id');
-  $query->bindParam(':id', htmlspecialchars($idCD), PDO::PARAM_INT);
+  $idCD = htmlspecialchars($idCD);
+  $query->bindParam(':id', $idCD, PDO::PARAM_INT);
   $query->execute();
   $curseur=$query->fetch();
   $cd = new CD($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['idCategorie'],$curseur['cover'],$curseur['reserve'],$curseur['nbPistes'],$curseur['idAuteur'],$curseur['idCompositeur'],$curseur['idInterprete'],$curseur['genre']);
