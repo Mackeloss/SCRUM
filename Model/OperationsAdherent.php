@@ -10,7 +10,7 @@ function get_empruntsLivre($idAdherent){
  include('Model/ConnexionBD.php');
  include_once('Model/Class/Media.class.php');
  include_once('Model/Class/Livre.class.php');
- $query=$bdd->prepare("SELECT livre.id, titre, categorie, date_parution, cover, reserve, idAuteur, resume, type, idEmprunt, dateEmprunt, dateRetour FROM emprunter INNER JOIN adherent ON adherent.id=emprunter.idAdherent INNER JOIN livre ON livre.id=emprunter.idMedia WHERE adherent.id=:idAdherent AND typeMedia='Livre';");
+ $query=$bdd->prepare("SELECT livre.id, titre, categorie, DATE_FORMAT(date_parution, '%j/%m/%Y'), cover, reserve, idAuteur, resume, type, idEmprunt, dateEmprunt, dateRetour FROM emprunter INNER JOIN adherent ON adherent.id=emprunter.idAdherent INNER JOIN livre ON livre.id=emprunter.idMedia WHERE adherent.id=:idAdherent AND typeMedia='Livre';");
  $query->bindParam(':idAdherent', $idAdherent, PDO::PARAM_INT);
  $query->execute();
  $tabEmpruntsLivre=array();
