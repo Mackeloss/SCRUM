@@ -71,7 +71,7 @@ function get_CD($idCD){
   $query->bindParam(':id', $idCD, PDO::PARAM_INT);
   $query->execute();
   $curseur=$query->fetch();
-  $cd = new CD($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['idCategorie'],$curseur['cover'],$curseur['reserve'],$curseur['nbPistes'],$curseur['idAuteur'],$curseur['idCompositeur'],$curseur['idInterprete'],$curseur['genre']);
+  $cd = new CD($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['categorie'],$curseur['cover'],$curseur['reserve'],$curseur['nbPistes'],$curseur['idAuteur'],$curseur['idCompositeur'],$curseur['idInterprete'],$curseur['genre']);
   return $cd;
 }
 
@@ -80,7 +80,7 @@ function get_DVD($idDVD){
   include('Model/ConnexionBD.php');
   include_once('Model/Class/Media.class.php');
   include_once('Model/Class/DVD.class.php');
-  $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \' % d /%m /%Y\') AS date_parution,idCategorie,cover,reserve,genre,duree,idRealisateur FROM dvd WHERE id=:id');
+  $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \' %d/%m /%Y\') AS date_parution,idCategorie,cover,reserve,genre,duree,idRealisateur FROM dvd WHERE id=:id');
   $id = htmlspecialchars($idDVD);
   $query->bindParam(':id', $id, PDO::PARAM_INT);
   $query->execute();
@@ -94,12 +94,12 @@ function get_livre($idLivre){
   include('Model/ConnexionBD.php');
   include_once('Model/Class/Media.class.php');
   include_once('Model/Class/Livre.class.php');
-  $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \' % d /%m /%Y\') AS date_parution,categorie,cover,reserve,idAuteur,resume,type FROM livre WHERE id=:id');
+  $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \' %d/%m /%Y\') AS date_parution,categorie,cover,reserve,idAuteur,resume,type FROM livre WHERE id=:id');
   $idLivre = htmlspecialchars($idLivre);
   $query->bindParam(':id', $idLivre, PDO::PARAM_INT);
   $query->execute();
   $curseur=$query->fetch();
-  $livre = new Livre($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['idCategorie'],$curseur['cover'],$curseur['reserve'],$curseur['idAuteur'],$curseur['resume'],$curseur['type']);
+  $livre = new Livre($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['categorie'],$curseur['cover'],$curseur['reserve'],$curseur['idAuteur'],$curseur['resume'],$curseur['type']);
   return $livre;
 }
 
@@ -127,7 +127,8 @@ function get_media($idMedia, $typeMedia){
     case 'CD':
     include_once('Model/Class/CD.class.php');
     $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%d/%m/%Y\') AS date_parution,idCategorie,cover,reserve,nbPistes,idAuteur,idCompositeur, idInterprete,genre FROM cd WHERE id=:id');
-    $query->bindParam(':id', htmlspecialchars($idMedia), PDO::PARAM_INT);
+    $id = htmlspecialchars($idMedia);
+    $query->bindParam(':id',$id , PDO::PARAM_INT);
     $query->execute();
     $curseur=$query->fetch();
     $Media = new CD($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['idCategorie'],$curseur['cover'],$curseur['reserve'],$curseur['nbPistes'],$curseur['idAuteur'],$curseur['idCompositeur'],$curseur['idInterprete'],$curseur['genre']);
@@ -217,8 +218,10 @@ function reserver_media($idAdherent, $media){
 	}
 	*/
 	$query=$bdd->prepare('SELECT * FROM emprunter WHERE idMedia=:idMedia AND typeMedia=:type');
-	$query->bindParam(':idMedia', $media->getId(), PDO::PARAM_INT);
-	$query->bindParam(':type', get_class($media), PDO::PARAM_INT);
+	$id = $media->getId();
+	$query->bindParam(':idMedia', $id, PDO::PARAM_INT);
+	$class = get_class($media);
+	$query->bindParam(':type', $class, PDO::PARAM_INT);
 	$query->execute();
 	$curseur=$query->fetch();
 	$today=$curseur['dateRetour'];
@@ -235,7 +238,8 @@ function reserver_media($idAdherent, $media){
 	}else{
 	
 	$query=$bdd->prepare('INSERT INTO reserver VALUES (DEFAULT, :idMedia, :idAdherent, CURRENT_DATE, :typeMedia);');
-	$query->bindParam(':idMedia', $media->getId(), PDO::PARAM_INT);
+	$id = $media->getId();
+	$query->bindParam(':idMedia', $id, PDO::PARAM_INT);
 	$query->bindParam(':idAdherent', $idAdherent, PDO::PARAM_INT);
 	//$query->bindParam(':date', $today, PDO::PARAM_INT);
 	$query->bindParam(':typeMedia', $type, PDO::PARAM_INT);
@@ -276,7 +280,7 @@ function rechercher_media($keyword){
   $query->execute();
   $tabCD=array();
   while($curseur=$query->fetch()){
-    $tabCD[]=new CD($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['idCategorie'],$curseur['cover'],$curseur['reserve'],$curseur['nbPistes'],$curseur['idAuteur'],$curseur['idCompositeur'],$curseur['idInterprete'],$curseur['genre']);
+    $tabCD[]=new CD($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['categorie'],$curseur['cover'],$curseur['reserve'],$curseur['nbPistes'],$curseur['idAuteur'],$curseur['idCompositeur'],$curseur['idInterprete'],$curseur['genre']);
   }
 
   $query=$bdd->prepare("SELECT * FROM dvd WHERE titre LIKE :keyword OR idRealisateur=:id;");

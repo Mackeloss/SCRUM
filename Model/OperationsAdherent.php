@@ -10,7 +10,7 @@ function get_empruntsLivre($idAdherent){
  include('Model/ConnexionBD.php');
  include_once('Model/Class/Media.class.php');
  include_once('Model/Class/Livre.class.php');
- $query=$bdd->prepare("SELECT livre.id, titre, categorie, DATE_FORMAT(date_parution, '%j/%m/%Y') AS date_parution, cover, reserve, idAuteur, resume, type, idEmprunt, dateEmprunt, dateRetour FROM emprunter INNER JOIN adherent ON adherent.id=emprunter.idAdherent INNER JOIN livre ON livre.id=emprunter.idMedia WHERE adherent.id=:idAdherent AND typeMedia='Livre';");
+ $query=$bdd->prepare("SELECT livre.id, titre, categorie, DATE_FORMAT(date_parution, '%d/%m/%Y') AS date_parution, cover, reserve, idAuteur, resume, type, idEmprunt, dateEmprunt, dateRetour FROM emprunter INNER JOIN adherent ON adherent.id=emprunter.idAdherent INNER JOIN livre ON livre.id=emprunter.idMedia WHERE adherent.id=:idAdherent AND typeMedia='Livre';");
  $query->bindParam(':idAdherent', $idAdherent, PDO::PARAM_INT);
  $query->execute();
  $tabEmpruntsLivre=array();
@@ -25,7 +25,7 @@ function get_empruntsCD($idAdherent){
  include('Model/ConnexionBD.php');
  include_once('Model/Class/Media.class.php');
  include_once('Model/Class/CD.class.php');
- $query=$bdd->prepare("SELECT cd.id, titre, categorie, DATE_FORMAT(date_parution, '%j/%m/%Y') AS date_parution, cover, reserve, nbPistes, idAuteur, idCompositeur, idInterprete, genre, duree, idEmprunt, dateEmprunt, dateRetour FROM emprunter INNER JOIN adherent ON adherent.id=emprunter.idAdherent INNER JOIN cd ON cd.id=emprunter.idMedia WHERE adherent.id=:idAdherent AND typeMedia='CD';");
+ $query=$bdd->prepare("SELECT cd.id, titre, categorie, DATE_FORMAT(date_parution, '%d/%m/%Y') AS date_parution, cover, reserve, nbPistes, idAuteur, idCompositeur, idInterprete, genre, duree, idEmprunt, DATE_FORMAT(dateEmprunt, '%d/%m/%Y') AS dateEmprunt, DATE_FORMAT(dateRetour, '%d/%m/%Y') AS dateRetour FROM emprunter INNER JOIN adherent ON adherent.id=emprunter.idAdherent INNER JOIN cd ON cd.id=emprunter.idMedia WHERE adherent.id=:idAdherent AND typeMedia='CD';");
  $query->bindParam(':idAdherent', $idAdherent, PDO::PARAM_INT);
  $query->execute();
  $tabEmpruntsCD=array();
@@ -40,7 +40,7 @@ function get_empruntsDVD($idAdherent){
  include('Model/ConnexionBD.php');
  include_once('Model/Class/Media.class.php');
  include_once('Model/Class/DVD.class.php');
- $query=$bdd->prepare("SELECT dvd.id, titre, idCategorie, DATE_FORMAT(date_parution, '%j/%m/%Y') AS date_parution, cover, reserve, genre, duree, idRealisateur, idEmprunt, dateEmprunt, dateRetour FROM emprunter INNER JOIN adherent ON adherent.id=emprunter.idAdherent INNER JOIN dvd ON dvd.id=emprunter.idMedia WHERE adherent.id=:idAdherent AND typeMedia='DVD';");
+ $query=$bdd->prepare("SELECT dvd.id, titre, idCategorie, DATE_FORMAT(date_parution, '%d/%m/%Y') AS date_parution, cover, reserve, genre, duree, idRealisateur, idEmprunt, DATE_FORMAT(dateEmprunt, '%d/%m/%Y') AS dateEmprunt, DATE_FORMAT(dateRetour, '%d/%m/%Y') AS dateRetour FROM emprunter INNER JOIN adherent ON adherent.id=emprunter.idAdherent INNER JOIN dvd ON dvd.id=emprunter.idMedia WHERE adherent.id=:idAdherent AND typeMedia='DVD';");
  $query->bindParam(':idAdherent', $idAdherent, PDO::PARAM_INT);
  $query->execute();
  $tabEmpruntsDVD=array();
@@ -70,7 +70,7 @@ function get_reservationsLivre($idAdherent){
  include('Model/ConnexionBD.php');
  include_once('Model/Class/Media.class.php');
  include_once('Model/Class/Livre.class.php');
- $query=$bdd->prepare("SELECT livre.id, titre, categorie, date_parution, cover, reserve, idAuteur, resume, type, idReservation, dateReservation FROM reserver INNER JOIN adherent ON adherent.id=reserver.idAdherent INNER JOIN livre ON livre.id=reserver.idMedia WHERE adherent.id=:idAdherent AND typeMedia='Livre';");
+ $query=$bdd->prepare("SELECT livre.id, titre, categorie, DATE_FORMAT(date_parution, '%d/%m/%Y') AS date_parution, cover, reserve, idAuteur, resume, type, idReservation, DATE_FORMAT(dateReservation, '%d/%m/%Y') AS dateReservation FROM reserver INNER JOIN adherent ON adherent.id=reserver.idAdherent INNER JOIN livre ON livre.id=reserver.idMedia WHERE adherent.id=:idAdherent AND typeMedia='Livre';");
  $query->bindParam(':idAdherent', $idAdherent, PDO::PARAM_INT);
  $query->execute();
  $tabReservationsLivre=array();
@@ -85,7 +85,7 @@ function get_reservationsCD($idAdherent){
  include('Model/ConnexionBD.php');
  include_once('Model/Class/Media.class.php');
  include_once('Model/Class/CD.class.php');
- $query=$bdd->prepare("SELECT cd.id, titre, categorie, date_parution, cover, reserve, nbPistes, idAuteur, idCompositeur, idInterprete, genre, duree, idReservation, dateReservation FROM reserver INNER JOIN adherent ON adherent.id=reserver.idAdherent INNER JOIN cd ON cd.id=reserver.idMedia WHERE adherent.id=:idAdherent AND typeMedia='CD';");
+ $query=$bdd->prepare("SELECT cd.id, titre, categorie, DATE_FORMAT(date_parution, '%d/%m/%Y') AS date_parution, cover, reserve, nbPistes, idAuteur, idCompositeur, idInterprete, genre, duree, idReservation, DATE_FORMAT(dateReservation, '%d/%m/%Y') AS dateReservation FROM reserver INNER JOIN adherent ON adherent.id=reserver.idAdherent INNER JOIN cd ON cd.id=reserver.idMedia WHERE adherent.id=:idAdherent AND typeMedia='CD';");
  $query->bindParam(':idAdherent', $idAdherent, PDO::PARAM_INT);
  $query->execute();
  $tabReservationsCD=array();
@@ -100,7 +100,7 @@ function get_reservationsDVD($idAdherent){
  include('Model/ConnexionBD.php');
  include_once('Model/Class/Media.class.php');
  include_once('Model/Class/DVD.class.php');
- $query=$bdd->prepare("SELECT dvd.id, titre, idCategorie, date_parution, cover, reserve, genre, duree, idRealisateur, idReservation, dateReservation FROM reserver INNER JOIN adherent ON adherent.id=reserver.idAdherent INNER JOIN dvd ON dvd.id=reserver.idMedia WHERE adherent.id=:idAdherent AND typeMedia='DVD';");
+ $query=$bdd->prepare("SELECT dvd.id, titre, idCategorie, DATE_FORMAT(date_parution, '%d/%m/%Y') AS date_parution, cover, reserve, genre, duree, idRealisateur, idReservation, DATE_FORMAT(dateReservation, '%d/%m/%Y') AS dateReservation FROM reserver INNER JOIN adherent ON adherent.id=reserver.idAdherent INNER JOIN dvd ON dvd.id=reserver.idMedia WHERE adherent.id=:idAdherent AND typeMedia='DVD';");
  $query->bindParam(':idAdherent', $idAdherent, PDO::PARAM_INT);
  $query->execute();
  $tabReservationsDVD=array();
