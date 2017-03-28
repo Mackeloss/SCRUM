@@ -249,6 +249,28 @@ function reserver_media($idAdherent, $media){
 
 }
 
+//Permet de réserver un média passé en paramètre
+function emprunter_media($idAdherent, $media){
+    include('Model/ConnexionBD.php');
+    include_once('Model/Class/Media.class.php');
+    include_once('Model/Class/CD.class.php');
+    include_once('Model/Class/DVD.class.php');
+    include_once('Model/Class/Livre.class.php');
+    $type=get_class($media);
+    $idMedia=0;
+    /*
+    switch($type){
+        case 'Livre': ...
+
+    }
+    */
+    if ($media.getEtat() != "emprunté") {
+        $media.changerEtat();
+    }
+
+
+}
+
 //Permet de rechercher un media d'après un mot-clé passé en paramètre
 function rechercher_media($keyword){
 
