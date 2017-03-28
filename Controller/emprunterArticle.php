@@ -1,8 +1,23 @@
 <?php
 //Permet d" emprunter un article si l'on est connecté
+include_once('Model/rechercher.php');
+$tabUtilisateur = array();
+$tabMedia = array();
+switch ($_GET['action']){
+    case 'rechercheUtilisateur':
+        $tabUtilisateur = get_AdherentByParam($_POST['username']);
+        break;
+    case 'selectionUtilisateur':
+        break;
+    case 'rechercheMedia':
+        $tabMedia = get_MediaByParam($_POST['username']);
+        break;
+    case 'selectionMedia':
+        break;
+    default:
 
-$tabMedia = null;
-$tabUtilisateur = null;
+        break;
+}
 include('View/mediaEmprunte.php');
     /*include('Model/ConnexionBD.php');
     include('Model/OperationsMedia.php');
