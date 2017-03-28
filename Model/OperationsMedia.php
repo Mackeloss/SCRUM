@@ -111,15 +111,17 @@ function get_media($idMedia, $typeMedia){
     case 'Livre':
     include_once('Model/Class/Livre.class.php');
     $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%d/%m/%Y\') AS date_parution,idCategorie,cover,reserve,idAuteur,resume,type FROM livre WHERE id=:id');
-    $query->bindParam(':id', htmlspecialchars($idMedia), PDO::PARAM_INT);
+    $id = htmlspecialchars($idMedia);
+    $query->bindParam(':id', $id, PDO::PARAM_INT);
     $query->execute();
     $curseur=$query->fetch();
     $Media = new Livre($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['idCategorie'],$curseur['cover'],$curseur['reserve'],$curseur['idAuteur'],$curseur['resume'],$curseur['type']);
     break;
     case 'DVD':
     include_once('Model/Class/DVD.class.php');
-    $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%d/%m/%Y\') AS date_parution,idCategorie,cover,reserve,genre,duree,IdRealisateur FROM dvd WHERE id=:id');
-    $query->bindParam(':id', htmlspecialchars($idMedia), PDO::PARAM_INT);
+    $query=$bdd->prepare('SELECT id,titre,DATE_FORMAT(date_parution, \'%d/%m/%Y\') AS date_parution,idCategorie,cover,reserve,genre,duree,idRealisateur FROM dvd WHERE id=:id');
+    $id = htmlspecialchars($idMedia);
+    $query->bindParam(':id', $id, PDO::PARAM_INT);
     $query->execute();
     $curseur=$query->fetch();
     $Media = new DVD($curseur['id'],$curseur['titre'],$curseur['date_parution'],$curseur['idCategorie'],$curseur['cover'],$curseur['reserve'],$curseur['genre'],$curseur['duree'],$curseur['idRealisateur']);
