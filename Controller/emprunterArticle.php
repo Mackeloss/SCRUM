@@ -37,7 +37,7 @@ if(isset($_GET['action'])){
             break;
         case 'selectionMedia':
             emprunter($_GET['user'],$_GET['type'],$_GET['media']);
-            include('index.php');
+            include('View/EmpruntOK.php');
             break;
         default:
 
