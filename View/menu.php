@@ -14,13 +14,13 @@
 						  <ul class="nav navbar-nav">
 							<li> <a href="site.php">Accueil</a> </li>
 							<li> <a href="site.php?section=catalogue">Catalogue</a> </li>
-							<?php if(isset($_SESSION['adherent'])  && $_SESSION['adherent']->getNom() != "admin"){?>
+							<?php if(isset($_SESSION['adherent'])){?>
 								<li><a href="site.php?section=monespace&id=<?php echo $_SESSION['adherent']->getId();?>">Mon espace</a></li>
 							<?php }	?>
                             <?php if(isset($_SESSION['adherent']) && $_SESSION['adherent']->getNom() === "admin"){?>
                                 <li><a href="site.php?section=ajoutAdherent">Ajouter Adhérent</a></li>
                                 <li> <a href="site.php?section=creerEmprunt">Emprunter</a> </li>
-                                <li><a href="site.php?section=retourEmprunt">Retour Emprunt</a></li>
+                                <!--<li><a href="site.php?section=retourEmprunt">Retour Emprunt</a></li>-->
                                 <li><a href="site.php?section=listeEmpruntRetard">Liste Emprunt Retard</a></li>
                             <?php } ?>
 							<li> <a href="site.php?section=contact">Contact</a> </li>

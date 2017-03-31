@@ -36,7 +36,7 @@ if(isset($_GET['action'])){
             include('View/mediaRetourEmprunt.php');
             break;
         case 'selectionMedia':
-            emprunter($_GET['user'],$_GET['type'],$_GET['media']);
+            retourEmprunter($_GET['user'],$_GET['type'],$_GET['media']);
             include('View/EmpruntOK.php');
             break;
         default:
@@ -47,6 +47,4 @@ if(isset($_GET['action'])){
     $etape = 1;
     include('View/mediaRetourEmprunt.php');
 }
-
-
 ?>
