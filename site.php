@@ -141,6 +141,14 @@ if(isset($_GET['section'])){
       case 'creerEmprunt':
           require_once('Controller/emprunterArticle.php');
           break;
+
+      case 'retourEmprunt':
+          require_once('Controller/retourEmprunter.php');
+          break;
+
+      case 'listeEmpruntRetard':
+          require_once('Controller/listeEmpruntRetard.php');
+          break;
     //Affichage de la page d'accueil par défaut
     default:
       require_once('Controller/index.php');
