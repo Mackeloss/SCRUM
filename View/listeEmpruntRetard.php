@@ -9,8 +9,7 @@ include('menu.php');
 <br/>
 <br/>
     <div class="row">
-        <div class="col-lg-offset-1 col-lg-6">
-            <table align='center' border='2'>
+        <table align='center' border='2'>
                 <tr>
                     <td>Adherent</td>
                     <td>Titre</td>
@@ -20,16 +19,15 @@ include('menu.php');
                 <?php
                 foreach ($emprunts as $emprunt) {
                     echo "<tr>
-        <td> " . $emprunt['nom'] . " ". $emprunt['prenom']." </td>
-        <td> " . $emprunt['titre'] . " </td>
-        <td> " . $emprunt['typeMedia'] . " </td>
-        <td> " . $emprunt['dateEmprunt'] . " </td>
-    </tr>";
+                          <td>" . $emprunt['nom'] . " ". $emprunt['prenom']."</td>
+                          <td>" . $emprunt['titre'] . "</td>
+                          <td>" . $emprunt['typeMedia'] . "</td>
+                          <td>" . $emprunt['dateEmprunt'] . "</td>
+                          </tr>";
                 }
                 ?>
 
-            </table>
-        </div>
+        </table>
     </div>
     </br></br>
 
