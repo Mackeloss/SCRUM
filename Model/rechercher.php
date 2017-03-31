@@ -39,5 +39,4 @@ function get_MediaByParam($param){
     $cds = $query->fetchAll();
 
     return array_merge($dvds,$livres,$cds);
-
 }
