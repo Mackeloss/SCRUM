@@ -19,6 +19,7 @@
 							<?php }	?>
                             <?php if(isset($_SESSION['adherent']) && $_SESSION['adherent']->getNom() === "admin"){?>
                                 <li><a href="site.php?section=ajoutAdherent">Ajouter Adhérent</a></li>
+                                <li><a href="site.php?section=listeEmpruntRetard">Liste Emprunt Retard</a></li>
                             <?php } ?>
 							<li> <a href="site.php?section=contact">Contact</a> </li>
                               <li> <a href="site.php?section=creerEmprunt">Emprunter</a> </li>

@@ -8,3 +8,15 @@ function emprunter($user,$type,$media){
     $query->bindParam(':type', $type, PDO::PARAM_STR);
     $query->execute();
 }
+
+
+function listeEmpruntRetard(){
+    include('Model/ConnexionBD.php');
+    $var = "SELECT * FROM emprunter
+            WHERE dateRetour IS NULL
+            AND DATE_ADD(dateEmprunt,INTERVAL (SELECT dureeEmprunt FROM configuration) DAY) > NOW() ";
+    $query=$bdd->prepare($var);
+    $query->execute();
+    $emprunt = $query->fetchAll();
+    return $emprunt;
+}
