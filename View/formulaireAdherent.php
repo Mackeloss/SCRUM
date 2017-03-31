@@ -27,59 +27,69 @@ function surligne(champ, erreur)
 </script>
 
     <form class="form-horizontal" role="form" method="post" action="site.php?section=ajoutAdherent&action=inscription">
+
         <div class="form-group">
             <label for="username" class="col-sm-2 control-label col-sm-offset-1">Nom d'utilisateur</label>
             <div class="col-sm-6">
                 <input type="text" class="form-control" id="username" name="username" placeholder="Nom d'Utilisateur">
             </div>
         </div>
+
         <div class="form-group">
             <label for="email" class="col-sm-2 control-label col-sm-offset-1">Adresse mail</label>
             <div class="col-sm-6">
                 <input type="email" class="form-control" onBlur="verifMail(this)" id="email" name="email" placeholder="exemple@domaine.com">
             </div>
         </div>
+
         <div class="form-group">
             <label for="mdp" class="col-sm-2 control-label col-sm-offset-1">Mot de Passe</label>
             <div class="col-sm-6">
                 <input type="password" class="form-control" id="mdp" name="mdp">
             </div>
         </div>
+
         <div class="form-group">
             <label for="prenom" class="col-sm-2 control-label col-sm-offset-1">Prénom</label>
             <div class="col-sm-6">
                 <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prénom">
             </div>
         </div>
-        <div class="form-groupe">
+
+        <div class="form-group">
             <label for="nom" class="col-sm-2 control-label col-sm-offset-1">Nom</label>
             <div class="col-sm-6">
                 <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom">
             </div>
         </div>
+
         <div class="form-group">
             <label for="adresse" class="col-sm-2 control-label col-sm-offset-1">Adresse</label>
             <div class="col-sm-6">
                 <input type="text" class="form-control" id="adresse" name="adresse">
             </div>
         </div>
+
         <div class="form-group">
             <label for="num" class="col-sm-2 control-label col-sm-offset-1">Numéro de Téléphone</label>
             <div class="col-sm-6">
                 <input type="text" class="form-control" id="num" name="num">
             </div>
         </div>
+
         <div class="form-group">
             <label for="dateNaissance" class="col-sm-2 control-label col-sm-offset-1">Date de Naissance</label>
             <div class="col-sm-6">
                 <input type="date" class="form-control" id="dateNaissance" name="dateNaissance">
             </div>
         </div>
+
         <div class="form-group">
             <div class="col-sm-6 col-sm-offset-3">
                 <input id="submit" name="submit" type="submit" value="Envoyer" class="btn btn-primary">
             </div>
         </div>
+
         <div class="form-group">
         </div>
     </form>
