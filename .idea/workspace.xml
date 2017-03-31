@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb5fee40-fbb2-400b-b148-c25bc03a2f49" name="Default" comment="up op_adhe + media&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controller/retourEmprunter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/retourEmprunt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/mediaRetourEmprunt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/rechercher.php" afterPath="$PROJECT_DIR$/Model/rechercher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/menu.php" afterPath="$PROJECT_DIR$/View/menu.php" />
+    <list default="true" id="cb5fee40-fbb2-400b-b148-c25bc03a2f49" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/retourEmprunter.php" afterPath="$PROJECT_DIR$/Controller/retourEmprunter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/mediaRetourEmprunt.php" afterPath="$PROJECT_DIR$/View/mediaRetourEmprunt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site.php" afterPath="$PROJECT_DIR$/site.php" />
     </list>
     <list id="95f1236c-1e46-44ec-867f-560412092970" name="Failed commit: Default" comment="up index.php&#10;" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,22 +24,9 @@
       <file leaf-file-name="emprunterArticle.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/emprunterArticle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="1054">
+              <caret line="62" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="emprunter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/emprunter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <marker date="1490970719090" expanded="true" signature="45:418" ph="..." />
-                <marker date="1490970719090" expanded="true" signature="96:192" ph="INSERT INTO emprunter... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -58,15 +43,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="rechercher.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/rechercher.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mediaRetourEmprunt.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/View/mediaRetourEmprunt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="68" column="16" lean-forward="true" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+            <state relative-caret-position="219">
+              <caret line="77" column="43" lean-forward="true" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1490970721167" expanded="true" signature="1494:1827" ph="..." />
-                <marker date="1490970721167" expanded="true" signature="2209:2561" ph="..." />
+                <marker date="1490972146525" expanded="true" signature="1495:1828" ph="..." />
+                <marker date="1490972146525" expanded="true" signature="3163:3515" ph="..." />
               </folding>
             </state>
           </provider>
@@ -85,8 +80,18 @@
       <file leaf-file-name="retourEmprunter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/retourEmprunter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="799">
+              <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2414">
+              <caret line="142" column="16" lean-forward="true" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -95,7 +100,7 @@
       <file leaf-file-name="mediaEmprunte.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/View/mediaEmprunte.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
+            <state relative-caret-position="459">
               <caret line="90" column="2" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="90" selection-end-column="2" />
               <folding>
                 <marker date="1490688919544" expanded="true" signature="1384:1716" ph="..." />
@@ -111,10 +116,10 @@
             <state relative-caret-position="486">
               <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               <folding>
-                <marker date="1490970721167" expanded="true" signature="176:262" ph="SELECT * FRO... adherent" />
-                <marker date="1490970721167" expanded="true" signature="579:663" ph="SELECT id,ti... dvd" />
-                <marker date="1490970721167" expanded="true" signature="819:915" ph="SELECT id,ti... livre" />
-                <marker date="1490970721167" expanded="true" signature="1070:1152" ph="SELECT id,ti... cd" />
+                <marker date="1490971944395" expanded="true" signature="176:262" ph="SELECT * FRO... adherent" />
+                <marker date="1490971944395" expanded="true" signature="579:663" ph="SELECT id,ti... dvd" />
+                <marker date="1490971944395" expanded="true" signature="819:915" ph="SELECT id,ti... livre" />
+                <marker date="1490971944395" expanded="true" signature="1070:1152" ph="SELECT id,ti... cd" />
               </folding>
             </state>
           </provider>
@@ -125,16 +130,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="24" column="85" lean-forward="true" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="renouvelerEmprunt.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/renouvelerEmprunt.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,6 +155,7 @@
       <find>date</find>
       <find>get_all</find>
       <find>get_me</find>
+      <find>hidden</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,11 +177,13 @@
         <option value="$PROJECT_DIR$/Controller/emprunterArticle.php" />
         <option value="$PROJECT_DIR$/View/EmpruntOK.php" />
         <option value="$PROJECT_DIR$/Model/retourEmprunt.php" />
-        <option value="$PROJECT_DIR$/Model/rechercher.php" />
-        <option value="$PROJECT_DIR$/View/mediaRetourEmprunt.php" />
         <option value="$PROJECT_DIR$/Controller/retourEmprunt.php" />
         <option value="$PROJECT_DIR$/View/menu.php" />
+        <option value="$PROJECT_DIR$/site.php" />
+        <option value="$PROJECT_DIR$/View/mediaEmprunte.php" />
         <option value="$PROJECT_DIR$/Controller/retourEmprunter.php" />
+        <option value="$PROJECT_DIR$/Model/rechercher.php" />
+        <option value="$PROJECT_DIR$/View/mediaRetourEmprunt.php" />
       </list>
     </option>
   </component>
@@ -485,7 +483,7 @@
       <workItem from="1490111401254" duration="1382000" />
       <workItem from="1490367790910" duration="6299000" />
       <workItem from="1490681945213" duration="5858000" />
-      <workItem from="1490968737183" duration="2185000" />
+      <workItem from="1490968737183" duration="3426000" />
     </task>
     <task id="LOCAL-00001" summary="up README.md">
       <created>1490108856629</created>
@@ -599,11 +597,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490689430249</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="retour emprunt&#10;">
+      <created>1490970953878</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1490970953878</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19525000" />
+    <option name="totallyTimeSpent" value="20766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -666,7 +671,8 @@
     <MESSAGE value="up op_adhe + media : creation variables&#10;" />
     <MESSAGE value="up op_adhe&#10;" />
     <MESSAGE value="ajout d'un message pour confirmer l'ajout dun emprunt" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout d'un message pour confirmer l'ajout dun emprunt" />
+    <MESSAGE value="retour emprunt&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="retour emprunt&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -675,36 +681,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Model/OperationsMedia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4726">
-          <caret line="282" column="78" lean-forward="false" selection-start-line="282" selection-start-column="70" selection-end-line="282" selection-end-column="78" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1490683304551" expanded="true" signature="326:455" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="986:1142" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="1717:1851" ph="SELECT * FRO... dvd" />
-            <marker date="1490683304551" expanded="true" signature="2836:3005" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="3645:3794" ph="SELECT * FRO... dvd" />
-            <marker date="1490683304551" expanded="true" signature="4395:4539" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="5218:5362" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="5811:5958" ph="SELECT * FRO... dvd" />
-            <marker date="1490683304551" expanded="true" signature="6408:6580" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="7403:7437" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="7921:7955" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="8436:8470" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="8973:9007" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="9662:9728" ph="SELECT * FRO... emprunter" />
-            <marker date="1490683304551" expanded="true" signature="10018:10097" ph="INSERT INTO reserver... " />
-            <marker date="1490683304551" expanded="true" signature="10396:10482" ph="INSERT INTO reserver... " />
-            <marker date="1490683304551" expanded="true" signature="11670:11739" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="11872:11933" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="12366:12428" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="12902:12966" ph="SELECT * FRO... dvd" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/afficherCatalogue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -772,10 +748,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <marker date="1490970719091" expanded="true" signature="258:5313" ph="..." />
-            <marker date="1490970719091" expanded="true" signature="5255:5310" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -891,17 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1490970719091" expanded="true" signature="258:5313" ph="..." />
-            <marker date="1490970719091" expanded="true" signature="5255:5310" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/afficherMedia.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -920,6 +882,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="34" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -935,6 +898,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,38 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/rechercher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <marker date="1490970721167" expanded="true" signature="176:262" ph="SELECT * FRO... adherent" />
-            <marker date="1490970721167" expanded="true" signature="579:663" ph="SELECT id,ti... dvd" />
-            <marker date="1490970721167" expanded="true" signature="819:915" ph="SELECT id,ti... livre" />
-            <marker date="1490970721167" expanded="true" signature="1070:1152" ph="SELECT id,ti... cd" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/mediaEmprunte.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="90" column="2" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="90" selection-end-column="2" />
-          <folding>
-            <marker date="1490688919544" expanded="true" signature="1384:1716" ph="..." />
-            <marker date="1490688919544" expanded="true" signature="2925:3271" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/emprunterArticle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controller/retourEmprunt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1138,11 +1070,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/retourEmprunter.php">
+    <entry file="file://$PROJECT_DIR$/site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="2414">
+          <caret line="142" column="16" lean-forward="true" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/emprunterArticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/rechercher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <marker date="1490971944395" expanded="true" signature="176:262" ph="SELECT * FRO... adherent" />
+            <marker date="1490971944395" expanded="true" signature="579:663" ph="SELECT id,ti... dvd" />
+            <marker date="1490971944395" expanded="true" signature="819:915" ph="SELECT id,ti... livre" />
+            <marker date="1490971944395" expanded="true" signature="1070:1152" ph="SELECT id,ti... cd" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1156,14 +1109,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/rechercher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/retourEmprunter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/mediaEmprunte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="90" column="2" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="90" selection-end-column="2" />
+          <folding>
+            <marker date="1490688919544" expanded="true" signature="1384:1716" ph="..." />
+            <marker date="1490688919544" expanded="true" signature="2925:3271" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/View/mediaRetourEmprunt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="68" column="16" lean-forward="true" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        <state relative-caret-position="219">
+          <caret line="77" column="43" lean-forward="true" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1490970721167" expanded="true" signature="1494:1827" ph="..." />
-            <marker date="1490970721167" expanded="true" signature="2209:2561" ph="..." />
+            <marker date="1490972146525" expanded="true" signature="1495:1828" ph="..." />
+            <marker date="1490972146525" expanded="true" signature="3163:3515" ph="..." />
           </folding>
         </state>
       </provider>

@@ -142,6 +142,10 @@ if(isset($_GET['section'])){
           require_once('Controller/emprunterArticle.php');
           break;
 
+      case 'retourEmprunt':
+          require_once('Controller/retourEmprunter.php');
+          break;
+
       case 'listeEmpruntRetard':
           require_once('Controller/listeEmpruntRetard.php');
           break;

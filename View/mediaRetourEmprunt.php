@@ -13,7 +13,7 @@ include('menu.php');
     <div class="row">
 
         <div class="col-lg-offset-2 col-lg-8">
-            <h2>Enregistrer un retour d'mprunt</h2>
+            <h2>Enregistrer un retour d'emprunt</h2>
         </div>
     </div>
 
@@ -52,8 +52,26 @@ include('menu.php');
         </table>
     </div>
 <?php }elseif($etape == 3){?>
+    <div id="rechercherMedia">
+        <h3>Rechercher un média</h3>
+        <form class="form-horizontal" role="form" method="post" action="site.php?section=retourEmprunt&action=rechercheMedia">
+            <div class="form-group">
+                <label for="username" class="col-sm-2 control-label col-sm-offset-1">Nom d'utilisateur</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="media" name="media" placeholder="Nom du média">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <input type="hidden" class="form-control" id="user" name="user" value="<?php echo $user ;?>">
+                    <input id="submit" name="submit" type="submit" value="Envoyer" class="btn btn-primary">
+                </div>
+            </div>
+        </form>
+    </div>
+<?php }elseif($etape == 4){?>
     <div id="selectionnerMedia">
-        <h3>Valider un retour d'emprunt</h3>
+        <h3>Enregistrer un retour d'emprunt</h3>
         <table align='center' border='2' >
             <tr><th>Catégorie</th><th>Titre</th><th>Genre</th><th>Action</th></tr>
             <?php

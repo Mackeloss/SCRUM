@@ -1,5 +1,5 @@
 <?php
-//Permet d'enregistrer un retour d'emprunt
+//Permet d" emprunter un article si l'on est connecté
 include_once('Model/rechercher.php');
 include_once('Model/retourEmprunt.php');
 $tabUtilisateur = array();
@@ -23,17 +23,17 @@ if(isset($_GET['action'])){
         case 'rechercheUtilisateur':
             $etape = 2;
             $tabUtilisateur = get_AdherentByParam($_POST['username']);
-            include('View/mediaEmprunte.php');
+            include('View/mediaRetourEmprunt.php');
             break;
         case 'selectionUtilisateur':
             $etape = 3;
-            include('View/mediaEmprunte.php');
+            include('View/mediaRetourEmprunt.php');
             break;
         case 'rechercheMedia':
             $etape = 4;
             $user = $_POST['user'];
             $tabMedia = get_MediaByParam($_POST['media']);
-            include('View/mediaEmprunte.php');
+            include('View/mediaRetourEmprunt.php');
             break;
         case 'selectionMedia':
             emprunter($_GET['user'],$_GET['type'],$_GET['media']);
@@ -45,7 +45,8 @@ if(isset($_GET['action'])){
     }
 }else{
     $etape = 1;
-    include('View/mediaEmprunte.php');
+    include('View/mediaRetourEmprunt.php');
 }
+
 
 ?>
