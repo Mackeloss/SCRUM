@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cb5fee40-fbb2-400b-b148-c25bc03a2f49" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/retourEmprunter.php" afterPath="$PROJECT_DIR$/Controller/retourEmprunter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/mediaRetourEmprunt.php" afterPath="$PROJECT_DIR$/View/mediaRetourEmprunt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site.php" afterPath="$PROJECT_DIR$/site.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/emprunter.php" afterPath="$PROJECT_DIR$/Model/emprunter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/listeEmpruntRetard.php" afterPath="$PROJECT_DIR$/View/listeEmpruntRetard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/menu.php" afterPath="$PROJECT_DIR$/View/menu.php" />
     </list>
     <list id="95f1236c-1e46-44ec-867f-560412092970" name="Failed commit: Default" comment="up index.php&#10;" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +24,8 @@
       <file leaf-file-name="emprunterArticle.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/emprunterArticle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="146">
+              <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -37,7 +37,7 @@
             <state relative-caret-position="102">
               <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <marker date="1490970721167" expanded="true" signature="96:143" ph="INSERT INTO emprunter... " />
+                <marker date="1490972290406" expanded="true" signature="96:143" ph="INSERT INTO emprunter... " />
               </folding>
             </state>
           </provider>
@@ -53,26 +53,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mediaRetourEmprunt.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/View/mediaRetourEmprunt.php">
+      <file leaf-file-name="emprunter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/emprunter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="77" column="43" lean-forward="true" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+            <state relative-caret-position="476">
+              <caret line="46" column="77" lean-forward="false" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
               <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1490972146525" expanded="true" signature="1495:1828" ph="..." />
-                <marker date="1490972146525" expanded="true" signature="3163:3515" ph="..." />
+                <marker date="1490973104450" expanded="true" signature="96:192" ph="INSERT INTO emprunter... " />
+                <marker date="1490973104450" expanded="true" signature="503:727" ph="SELECT * FRO... emprunter" />
+                <marker date="1490973104450" expanded="true" signature="983:1038" ph="SELECT * FRO... dvd" />
+                <marker date="1490973104450" expanded="true" signature="1111:1166" ph="SELECT * FRO... dvd" />
+                <marker date="1490973104450" expanded="true" signature="1242:1297" ph="SELECT * FRO... dvd" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="supprimerReservation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/supprimerReservation.php">
+      <file leaf-file-name="mediaRetourEmprunt.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/mediaRetourEmprunt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="520">
+              <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <marker date="1490972290406" expanded="true" signature="1495:1828" ph="..." />
+                <marker date="1490972290406" expanded="true" signature="3163:3515" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listeEmpruntRetard.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/listeEmpruntRetard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding>
+                <marker date="1490973182660" expanded="true" signature="580:802" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +98,7 @@
       <file leaf-file-name="retourEmprunter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/retourEmprunter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
+            <state relative-caret-position="554">
               <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
               <folding />
             </state>
@@ -90,22 +108,9 @@
       <file leaf-file-name="site.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2414">
-              <caret line="142" column="16" lean-forward="true" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
+            <state relative-caret-position="316">
+              <caret line="149" column="53" lean-forward="false" selection-start-line="149" selection-start-column="35" selection-end-line="149" selection-end-column="53" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mediaEmprunte.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/mediaEmprunte.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="90" column="2" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="90" selection-end-column="2" />
-              <folding>
-                <marker date="1490688919544" expanded="true" signature="1384:1716" ph="..." />
-                <marker date="1490688919544" expanded="true" signature="2925:3271" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -116,20 +121,20 @@
             <state relative-caret-position="486">
               <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               <folding>
-                <marker date="1490971944395" expanded="true" signature="176:262" ph="SELECT * FRO... adherent" />
-                <marker date="1490971944395" expanded="true" signature="579:663" ph="SELECT id,ti... dvd" />
-                <marker date="1490971944395" expanded="true" signature="819:915" ph="SELECT id,ti... livre" />
-                <marker date="1490971944395" expanded="true" signature="1070:1152" ph="SELECT id,ti... cd" />
+                <marker date="1490972290380" expanded="true" signature="176:262" ph="SELECT * FRO... adherent" />
+                <marker date="1490972290380" expanded="true" signature="579:663" ph="SELECT id,ti... dvd" />
+                <marker date="1490972290380" expanded="true" signature="819:915" ph="SELECT id,ti... livre" />
+                <marker date="1490972290380" expanded="true" signature="1070:1152" ph="SELECT id,ti... cd" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="menu.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/View/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="85" lean-forward="true" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
+            <state relative-caret-position="357">
+              <caret line="21" column="96" lean-forward="true" selection-start-line="21" selection-start-column="96" selection-end-line="21" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -178,12 +183,14 @@
         <option value="$PROJECT_DIR$/View/EmpruntOK.php" />
         <option value="$PROJECT_DIR$/Model/retourEmprunt.php" />
         <option value="$PROJECT_DIR$/Controller/retourEmprunt.php" />
-        <option value="$PROJECT_DIR$/View/menu.php" />
         <option value="$PROJECT_DIR$/site.php" />
         <option value="$PROJECT_DIR$/View/mediaEmprunte.php" />
         <option value="$PROJECT_DIR$/Controller/retourEmprunter.php" />
         <option value="$PROJECT_DIR$/Model/rechercher.php" />
         <option value="$PROJECT_DIR$/View/mediaRetourEmprunt.php" />
+        <option value="$PROJECT_DIR$/View/menu.php" />
+        <option value="$PROJECT_DIR$/Model/emprunter.php" />
+        <option value="$PROJECT_DIR$/View/listeEmpruntRetard.php" />
       </list>
     </option>
   </component>
@@ -215,6 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,8 +280,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,122 +289,6 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Controller/inscrireAdherent.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Model/emprunter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/View/menu.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/site.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Controller/listeEmpruntRetard.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/View/listeEmpruntRetard.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.php">
     <configuration default="false" name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Mediatek_V1/index.php">
@@ -484,6 +375,7 @@
       <workItem from="1490367790910" duration="6299000" />
       <workItem from="1490681945213" duration="5858000" />
       <workItem from="1490968737183" duration="3426000" />
+      <workItem from="1490972306035" duration="888000" />
     </task>
     <task id="LOCAL-00001" summary="up README.md">
       <created>1490108856629</created>
@@ -604,11 +496,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490970953878</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="retour emprunt modification visuel&#10;">
+      <created>1490972338013</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1490972338013</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20766000" />
+    <option name="totallyTimeSpent" value="21654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -617,21 +516,21 @@
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32135308" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32135308" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32135308" sideWeight="0.49375" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32135308" sideWeight="0.49166667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,7 +571,8 @@
     <MESSAGE value="up op_adhe&#10;" />
     <MESSAGE value="ajout d'un message pour confirmer l'ajout dun emprunt" />
     <MESSAGE value="retour emprunt&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="retour emprunt&#10;" />
+    <MESSAGE value="retour emprunt modification visuel&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="retour emprunt modification visuel&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -681,13 +581,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/View/afficherCatalogue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/Class/Media.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -732,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,26 +663,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1490683304551" expanded="true" signature="326:455" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="986:1142" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="1717:1851" ph="SELECT * FRO... dvd" />
-            <marker date="1490683304551" expanded="true" signature="2836:3005" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="3645:3794" ph="SELECT * FRO... dvd" />
-            <marker date="1490683304551" expanded="true" signature="4395:4539" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="5218:5362" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="5811:5958" ph="SELECT * FRO... dvd" />
-            <marker date="1490683304551" expanded="true" signature="6408:6580" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="7403:7437" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="7921:7955" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="8436:8470" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="8973:9007" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="9662:9728" ph="SELECT * FRO... emprunter" />
-            <marker date="1490683304551" expanded="true" signature="10018:10097" ph="INSERT INTO reserver... " />
-            <marker date="1490683304551" expanded="true" signature="10396:10482" ph="INSERT INTO reserver... " />
-            <marker date="1490683304551" expanded="true" signature="11670:11739" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="11872:11933" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="12366:12428" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="12902:12966" ph="SELECT * FRO... dvd" />
           </folding>
         </state>
       </provider>
@@ -882,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="34" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,22 +781,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1088">
           <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <marker date="1490374546551" expanded="true" signature="342:678" ph="SELECT livre... emprunter" />
-            <marker date="1490374546551" expanded="true" signature="1384:1826" ph="SELECT cd.id... emprunter" />
-            <marker date="1490374546551" expanded="true" signature="2576:2990" ph="SELECT dvd.i... emprunter" />
-            <marker date="1490374546551" expanded="true" signature="4259:4632" ph="SELECT livre... reserver" />
-            <marker date="1490374546551" expanded="true" signature="5343:5743" ph="SELECT cd.id... reserver" />
-            <marker date="1490374546551" expanded="true" signature="6498:6870" ph="SELECT dvd.i... reserver" />
-            <marker date="1490374546551" expanded="true" signature="8117:8176" ph="SELECT * FRO... reserver" />
-            <marker date="1490374546551" expanded="true" signature="8385:8442" ph="DELETE FROM " />
-            <marker date="1490374546551" expanded="true" signature="8564:8621" ph="DELETE FROM " />
-            <marker date="1490374546551" expanded="true" signature="8913:8963" ph="SELECT * FRO... emprunter" />
-            <marker date="1490374546551" expanded="true" signature="9131:9227" ph="UPDATE empru... " />
-            <marker date="1490374546551" expanded="true" signature="9337:9396" ph="UPDATE empru... " />
-            <marker date="1490374546551" expanded="true" signature="9660:9710" ph="SELECT * FRO... emprunter" />
-            <marker date="1490374546551" expanded="true" signature="9955:10100" ph="INSERT INTO adherent... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -938,26 +791,6 @@
           <caret line="215" column="6" lean-forward="true" selection-start-line="215" selection-start-column="6" selection-end-line="215" selection-end-column="6" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1490683304551" expanded="true" signature="326:455" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="986:1142" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="1717:1851" ph="SELECT * FRO... dvd" />
-            <marker date="1490683304551" expanded="true" signature="2836:3005" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="3645:3794" ph="SELECT * FRO... dvd" />
-            <marker date="1490683304551" expanded="true" signature="4395:4539" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="5218:5362" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="5811:5958" ph="SELECT * FRO... dvd" />
-            <marker date="1490683304551" expanded="true" signature="6408:6580" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="7403:7437" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="7921:7955" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="8436:8470" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="8973:9007" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="9662:9728" ph="SELECT * FRO... emprunter" />
-            <marker date="1490683304551" expanded="true" signature="10018:10097" ph="INSERT INTO reserver... " />
-            <marker date="1490683304551" expanded="true" signature="10396:10482" ph="INSERT INTO reserver... " />
-            <marker date="1490683304551" expanded="true" signature="11670:11739" ph="SELECT * FRO... artiste" />
-            <marker date="1490683304551" expanded="true" signature="11872:11933" ph="SELECT * FRO... livre" />
-            <marker date="1490683304551" expanded="true" signature="12366:12428" ph="SELECT * FRO... cd" />
-            <marker date="1490683304551" expanded="true" signature="12902:12966" ph="SELECT * FRO... dvd" />
           </folding>
         </state>
       </provider>
@@ -966,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,25 +860,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/emprunter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <marker date="1490970719090" expanded="true" signature="45:418" ph="..." />
-            <marker date="1490970719090" expanded="true" signature="96:192" ph="INSERT INTO emprunter... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/retourEmprunt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/retourEmprunt.php" />
     <entry file="file://$PROJECT_DIR$/Controller/supprimerReservation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1062,39 +869,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/menu.php">
+    <entry file="file://$PROJECT_DIR$/View/mediaEmprunte.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="85" lean-forward="true" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
+        <state relative-caret-position="231">
+          <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2414">
-          <caret line="142" column="16" lean-forward="true" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
+        <state relative-caret-position="316">
+          <caret line="149" column="53" lean-forward="false" selection-start-line="149" selection-start-column="35" selection-end-line="149" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/emprunterArticle.php">
+    <entry file="file://$PROJECT_DIR$/View/mediaRetourEmprunt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/rechercher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="520">
+          <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
           <folding>
-            <marker date="1490971944395" expanded="true" signature="176:262" ph="SELECT * FRO... adherent" />
-            <marker date="1490971944395" expanded="true" signature="579:663" ph="SELECT id,ti... dvd" />
-            <marker date="1490971944395" expanded="true" signature="819:915" ph="SELECT id,ti... livre" />
-            <marker date="1490971944395" expanded="true" signature="1070:1152" ph="SELECT id,ti... cd" />
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1490972290406" expanded="true" signature="1495:1828" ph="..." />
+            <marker date="1490972290406" expanded="true" signature="3163:3515" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1104,8 +902,16 @@
         <state relative-caret-position="102">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
-            <marker date="1490970721167" expanded="true" signature="96:143" ph="INSERT INTO emprunter... " />
+            <marker date="1490972290406" expanded="true" signature="96:143" ph="INSERT INTO emprunter... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/emprunterArticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,32 +925,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Controller/retourEmprunter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
+        <state relative-caret-position="554">
           <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/mediaEmprunte.php">
+    <entry file="file://$PROJECT_DIR$/Model/rechercher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="90" column="2" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="90" selection-end-column="2" />
+        <state relative-caret-position="486">
+          <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
           <folding>
-            <marker date="1490688919544" expanded="true" signature="1384:1716" ph="..." />
-            <marker date="1490688919544" expanded="true" signature="2925:3271" ph="..." />
+            <marker date="1490972290380" expanded="true" signature="176:262" ph="SELECT * FRO... adherent" />
+            <marker date="1490972290380" expanded="true" signature="579:663" ph="SELECT id,ti... dvd" />
+            <marker date="1490972290380" expanded="true" signature="819:915" ph="SELECT id,ti... livre" />
+            <marker date="1490972290380" expanded="true" signature="1070:1152" ph="SELECT id,ti... cd" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/mediaRetourEmprunt.php">
+    <entry file="file://$PROJECT_DIR$/Model/emprunter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="77" column="43" lean-forward="true" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+        <state relative-caret-position="476">
+          <caret line="46" column="77" lean-forward="false" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
           <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1490972146525" expanded="true" signature="1495:1828" ph="..." />
-            <marker date="1490972146525" expanded="true" signature="3163:3515" ph="..." />
+            <marker date="1490973104450" expanded="true" signature="96:192" ph="INSERT INTO emprunter... " />
+            <marker date="1490973104450" expanded="true" signature="503:727" ph="SELECT * FRO... emprunter" />
+            <marker date="1490973104450" expanded="true" signature="983:1038" ph="SELECT * FRO... dvd" />
+            <marker date="1490973104450" expanded="true" signature="1111:1166" ph="SELECT * FRO... dvd" />
+            <marker date="1490973104450" expanded="true" signature="1242:1297" ph="SELECT * FRO... dvd" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/listeEmpruntRetard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <marker date="1490973182660" expanded="true" signature="580:802" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="96" lean-forward="true" selection-start-line="21" selection-start-column="96" selection-end-line="21" selection-end-column="96" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -44,7 +44,7 @@ function listeEmpruntRetard(){
             "nom" => $emprunt['nom'],
             "prenom" => $emprunt['prenom'],
             "typeMedia" => $emprunt['typeMedia'],
-            "dateEmprunt" => $emprunt['dateEmprunt'],
+            "dateEmprunt" => date("d/m/Y", strtotime($emprunt['dateEmprunt'])),
             "titre" => $ret['titre']);
         array_push($listeEmpruntRetard,$media);
 

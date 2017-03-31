@@ -21,6 +21,7 @@
                                 <li><a href="site.php?section=ajoutAdherent">Ajouter Adhérent</a></li>
                                 <li> <a href="site.php?section=creerEmprunt">Emprunter</a> </li>
                                 <li><a href="site.php?section=retourEmprunt">Retour Emprunt</a></li>
+                                <li><a href="site.php?section=listeEmpruntRetard">Liste Emprunt Retard</a></li>
                             <?php } ?>
 							<li> <a href="site.php?section=contact">Contact</a> </li>
 

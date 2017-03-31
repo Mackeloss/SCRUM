@@ -6,10 +6,11 @@ include('menu.php');
     <div class="col-lg-12" id="titreMonEspace">
         <h2>Liste Emprunt Retard</h2>
     </div>
-
+<br/>
+<br/>
     <div class="row">
         <div class="col-lg-offset-1 col-lg-6">
-            <table>
+            <table align='center' border='2'>
                 <tr>
                     <td>Adherent</td>
                     <td>Titre</td>
@@ -19,10 +20,10 @@ include('menu.php');
                 <?php
                 foreach ($emprunts as $emprunt) {
                     echo "<tr>
-        <td>" . $emprunt['nom'] . " ". $emprunt['prenom']."</td>
-        <td>" . $emprunt['titre'] . "</td>
-        <td>" . $emprunt['typeMedia'] . "</td>
-        <td>" . $emprunt['dateEmprunt'] . "</td>
+        <td> " . $emprunt['nom'] . " ". $emprunt['prenom']." </td>
+        <td> " . $emprunt['titre'] . " </td>
+        <td> " . $emprunt['typeMedia'] . " </td>
+        <td> " . $emprunt['dateEmprunt'] . " </td>
     </tr>";
                 }
                 ?>
