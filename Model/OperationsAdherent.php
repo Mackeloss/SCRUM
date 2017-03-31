@@ -171,16 +171,25 @@ function isRenouvelable($idEmprunt){
  return $curseur['renouvele'];
 }
 
-function ajouter_adherent($adherent) {
+function ajouter_adherent($adherent, $login, $pass) {
  include('Model/ConnexionBD.php');
- $query=$bdd->prepare('INSERT INTO adherent(nom, prenom, mail, tel, dateNaissance, dateInscription) VALUES(:nom, :prenom, :mail, :tel, :dateNaissance, :dateInscription)');
- $query->bindParam(':nom', $adherent->getNom());
- $query->bindParam(':prenom', $adherent->getPrenom());
- $query->bindParam(':mail', $adherent->getMail());
- $query->bindParam(':tel', $adherent->getTel());
- $query->bindParam(':dateNaissance', $adherent->getDateNaissance());
- $query->bindParam(':dateInscription', $adherent->getDateInscription());
-
+ $query=$bdd->prepare("INSERT INTO adherent(login, pass, adresse, nom, prenom, mail, tel, dateNaissance, dateInscription) VALUES(:login, :pass, :adresse, :nom, :prenom, :mail, :tel, :dateNaissance, :dateInscription)");
+ $query->bindParam(':login', $login, PDO::PARAM_STR);
+ $query->bindParam(':pass', $pass, PDO::PARAM_STR);
+ $adresse = $adherent->getAdresse();
+ $query->bindParam(':adresse', $adresse, PDO::PARAM_STR);
+ $nom = $adherent->getNom();
+ $query->bindParam(':nom', $nom,PDO::PARAM_STR);
+ $prenom=$adherent->getPrenom();
+ $query->bindParam(':prenom', $prenom,PDO::PARAM_STR);
+ $mail=$adherent->getMail();
+ $query->bindParam(':mail', $mail,PDO::PARAM_STR);
+ $tel=$adherent->getTel();
+ $query->bindParam(':tel', $tel,PDO::PARAM_STR);
+ $dateNaissance=$adherent->getDateNaissance();
+ $query->bindParam(':dateNaissance', $dateNaissance,PDO::PARAM_STR);
+ $dateInscription=$adherent->getDateInscription();
+ $query->bindParam(':dateInscription', $dateInscription,PDO::PARAM_STR);
  return $query->execute();
 }
 ?>

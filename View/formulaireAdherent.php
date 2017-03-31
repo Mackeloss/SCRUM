@@ -26,7 +26,7 @@ function surligne(champ, erreur)
 }
 </script>
 
-    <form class="form-horizontal" role="form" method="post" action="site.php?section=adherent&action=inscription">
+    <form class="form-horizontal" role="form" method="post" action="site.php?section=ajoutAdherent&action=inscription">
         <div class="form-group">
             <label for="username" class="col-sm-2 control-label col-sm-offset-1">Nom d'utilisateur</label>
             <div class="col-sm-6">
