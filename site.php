@@ -138,6 +138,9 @@ if(isset($_GET['section'])){
       }
     break;
 
+      case 'creerEmprunt':
+          require_once('Controller/emprunterArticle.php');
+          break;
     //Affichage de la page d'accueil par défaut
     default:
       require_once('Controller/index.php');
